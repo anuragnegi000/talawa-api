@@ -9,15 +9,21 @@
 - [ActionItem](models.md#actionitem)
 - [ActionItemCategory](models.md#actionitemcategory)
 - [Advertisement](models.md#advertisement)
+- [AgendaCategoryModel](models.md#agendacategorymodel)
+- [AgendaCategorySchema](models.md#agendacategoryschema)
 - [CheckIn](models.md#checkin)
 - [Comment](models.md#comment)
+- [CurrencyType](models.md#currencytype)
 - [DirectChat](models.md#directchat)
 - [DirectChatMessage](models.md#directchatmessage)
 - [Donation](models.md#donation)
 - [Event](models.md#event)
 - [EventAttendee](models.md#eventattendee)
+- [EventVolunteer](models.md#eventvolunteer)
 - [Feedback](models.md#feedback)
 - [File](models.md#file)
+- [Fund](models.md#fund)
+- [FundraisingCampaign](models.md#fundraisingcampaign)
 - [Group](models.md#group)
 - [GroupChat](models.md#groupchat)
 - [GroupChatMessage](models.md#groupchatmessage)
@@ -25,6 +31,7 @@
 - [InterfaceActionItem](models.md#interfaceactionitem)
 - [InterfaceActionItemCategory](models.md#interfaceactionitemcategory)
 - [InterfaceAdvertisement](models.md#interfaceadvertisement)
+- [InterfaceAgendaCategory](models.md#interfaceagendacategory)
 - [InterfaceCheckIn](models.md#interfacecheckin)
 - [InterfaceComment](models.md#interfacecomment)
 - [InterfaceDirectChat](models.md#interfacedirectchat)
@@ -32,8 +39,11 @@
 - [InterfaceDonation](models.md#interfacedonation)
 - [InterfaceEvent](models.md#interfaceevent)
 - [InterfaceEventAttendee](models.md#interfaceeventattendee)
+- [InterfaceEventVolunteer](models.md#interfaceeventvolunteer)
 - [InterfaceFeedback](models.md#interfacefeedback)
 - [InterfaceFile](models.md#interfacefile)
+- [InterfaceFund](models.md#interfacefund)
+- [InterfaceFundraisingCampaign](models.md#interfacefundraisingcampaign)
 - [InterfaceGroup](models.md#interfacegroup)
 - [InterfaceGroupChat](models.md#interfacegroupchat)
 - [InterfaceGroupChatMessage](models.md#interfacegroupchatmessage)
@@ -86,6 +96,18 @@ Re-exports [Advertisement](models_Advertisement.md#advertisement)
 
 ___
 
+### AgendaCategoryModel
+
+Re-exports [AgendaCategoryModel](models_AgendaCategory.md#agendacategorymodel)
+
+___
+
+### AgendaCategorySchema
+
+Re-exports [AgendaCategorySchema](models_AgendaCategory.md#agendacategoryschema)
+
+___
+
 ### CheckIn
 
 Re-exports [CheckIn](models_CheckIn.md#checkin)
@@ -95,6 +117,12 @@ ___
 ### Comment
 
 Re-exports [Comment](models_Comment.md#comment)
+
+___
+
+### CurrencyType
+
+Re-exports [CurrencyType](../enums/models_FundraisingCampaign.CurrencyType.md)
 
 ___
 
@@ -128,6 +156,12 @@ Re-exports [EventAttendee](models_EventAttendee.md#eventattendee)
 
 ___
 
+### EventVolunteer
+
+Re-exports [EventVolunteer](models_EventVolunteer.md#eventvolunteer)
+
+___
+
 ### Feedback
 
 Re-exports [Feedback](models_Feedback.md#feedback)
@@ -137,6 +171,18 @@ ___
 ### File
 
 Re-exports [File](models_File.md#file)
+
+___
+
+### Fund
+
+Re-exports [Fund](models_Fund.md#fund)
+
+___
+
+### FundraisingCampaign
+
+Re-exports [FundraisingCampaign](models_FundraisingCampaign.md#fundraisingcampaign)
 
 ___
 
@@ -182,6 +228,12 @@ Re-exports [InterfaceAdvertisement](../interfaces/models_Advertisement.Interface
 
 ___
 
+### InterfaceAgendaCategory
+
+Re-exports [InterfaceAgendaCategory](../interfaces/models_AgendaCategory.InterfaceAgendaCategory.md)
+
+___
+
 ### InterfaceCheckIn
 
 Re-exports [InterfaceCheckIn](../interfaces/models_CheckIn.InterfaceCheckIn.md)
@@ -224,6 +276,12 @@ Re-exports [InterfaceEventAttendee](../interfaces/models_EventAttendee.Interface
 
 ___
 
+### InterfaceEventVolunteer
+
+Re-exports [InterfaceEventVolunteer](../interfaces/models_EventVolunteer.InterfaceEventVolunteer.md)
+
+___
+
 ### InterfaceFeedback
 
 Re-exports [InterfaceFeedback](../interfaces/models_Feedback.InterfaceFeedback.md)
@@ -233,6 +291,18 @@ ___
 ### InterfaceFile
 
 Re-exports [InterfaceFile](../interfaces/models_File.InterfaceFile.md)
+
+___
+
+### InterfaceFund
+
+Re-exports [InterfaceFund](../interfaces/models_Fund.InterfaceFund.md)
+
+___
+
+### InterfaceFundraisingCampaign
+
+Re-exports [InterfaceFundraisingCampaign](../interfaces/models_FundraisingCampaign.InterfaceFundraisingCampaign.md)
 
 ___
 

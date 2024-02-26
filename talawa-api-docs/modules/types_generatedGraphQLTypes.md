@@ -28,12 +28,16 @@
 - [ActionItemCategory](types_generatedGraphQLTypes.md#actionitemcategory)
 - [ActionItemCategoryResolvers](types_generatedGraphQLTypes.md#actionitemcategoryresolvers)
 - [ActionItemResolvers](types_generatedGraphQLTypes.md#actionitemresolvers)
+- [ActionItemWhereInput](types_generatedGraphQLTypes.md#actionitemwhereinput)
+- [ActionItemsOrderByInput](types_generatedGraphQLTypes.md#actionitemsorderbyinput)
 - [Address](types_generatedGraphQLTypes.md#address)
 - [AddressInput](types_generatedGraphQLTypes.md#addressinput)
 - [AddressResolvers](types_generatedGraphQLTypes.md#addressresolvers)
 - [Advertisement](types_generatedGraphQLTypes.md#advertisement)
 - [AdvertisementResolvers](types_generatedGraphQLTypes.md#advertisementresolvers)
 - [AdvertisementType](types_generatedGraphQLTypes.md#advertisementtype)
+- [AgendaCategory](types_generatedGraphQLTypes.md#agendacategory)
+- [AgendaCategoryResolvers](types_generatedGraphQLTypes.md#agendacategoryresolvers)
 - [AggregatePost](types_generatedGraphQLTypes.md#aggregatepost)
 - [AggregatePostResolvers](types_generatedGraphQLTypes.md#aggregatepostresolvers)
 - [AggregateUser](types_generatedGraphQLTypes.md#aggregateuser)
@@ -55,10 +59,15 @@
 - [ConnectionPageInfo](types_generatedGraphQLTypes.md#connectionpageinfo)
 - [ConnectionPageInfoResolvers](types_generatedGraphQLTypes.md#connectionpageinforesolvers)
 - [CreateActionItemInput](types_generatedGraphQLTypes.md#createactioniteminput)
+- [CreateAgendaCategoryInput](types_generatedGraphQLTypes.md#createagendacategoryinput)
 - [CreateChatInput](types_generatedGraphQLTypes.md#createchatinput)
 - [CreateGroupChatInput](types_generatedGraphQLTypes.md#creategroupchatinput)
+- [CreateUserFamilyInput](types_generatedGraphQLTypes.md#createuserfamilyinput)
 - [CreateUserTagInput](types_generatedGraphQLTypes.md#createusertaginput)
+- [Currency](types_generatedGraphQLTypes.md#currency)
 - [CursorPaginationInput](types_generatedGraphQLTypes.md#cursorpaginationinput)
+- [DefaultConnectionPageInfo](types_generatedGraphQLTypes.md#defaultconnectionpageinfo)
+- [DefaultConnectionPageInfoResolvers](types_generatedGraphQLTypes.md#defaultconnectionpageinforesolvers)
 - [DeletePayload](types_generatedGraphQLTypes.md#deletepayload)
 - [DeletePayloadResolvers](types_generatedGraphQLTypes.md#deletepayloadresolvers)
 - [DirectChat](types_generatedGraphQLTypes.md#directchat)
@@ -76,10 +85,16 @@
 - [ErrorResolvers](types_generatedGraphQLTypes.md#errorresolvers)
 - [Event](types_generatedGraphQLTypes.md#event)
 - [EventAdminsArgs](types_generatedGraphQLTypes.md#eventadminsargs)
+- [EventAttendee](types_generatedGraphQLTypes.md#eventattendee)
 - [EventAttendeeInput](types_generatedGraphQLTypes.md#eventattendeeinput)
+- [EventAttendeeResolvers](types_generatedGraphQLTypes.md#eventattendeeresolvers)
 - [EventInput](types_generatedGraphQLTypes.md#eventinput)
 - [EventOrderByInput](types_generatedGraphQLTypes.md#eventorderbyinput)
 - [EventResolvers](types_generatedGraphQLTypes.md#eventresolvers)
+- [EventVolunteer](types_generatedGraphQLTypes.md#eventvolunteer)
+- [EventVolunteerInput](types_generatedGraphQLTypes.md#eventvolunteerinput)
+- [EventVolunteerResolvers](types_generatedGraphQLTypes.md#eventvolunteerresolvers)
+- [EventVolunteerResponse](types_generatedGraphQLTypes.md#eventvolunteerresponse)
 - [EventWhereInput](types_generatedGraphQLTypes.md#eventwhereinput)
 - [Exact](types_generatedGraphQLTypes.md#exact)
 - [ExtendSession](types_generatedGraphQLTypes.md#extendsession)
@@ -90,6 +105,16 @@
 - [FieldError](types_generatedGraphQLTypes.md#fielderror)
 - [FieldErrorResolvers](types_generatedGraphQLTypes.md#fielderrorresolvers)
 - [ForgotPasswordData](types_generatedGraphQLTypes.md#forgotpassworddata)
+- [Frequency](types_generatedGraphQLTypes.md#frequency)
+- [Fund](types_generatedGraphQLTypes.md#fund)
+- [FundCampaignInput](types_generatedGraphQLTypes.md#fundcampaigninput)
+- [FundCampaignPledgeInput](types_generatedGraphQLTypes.md#fundcampaignpledgeinput)
+- [FundInput](types_generatedGraphQLTypes.md#fundinput)
+- [FundResolvers](types_generatedGraphQLTypes.md#fundresolvers)
+- [FundraisingCampaign](types_generatedGraphQLTypes.md#fundraisingcampaign)
+- [FundraisingCampaignPledge](types_generatedGraphQLTypes.md#fundraisingcampaignpledge)
+- [FundraisingCampaignPledgeResolvers](types_generatedGraphQLTypes.md#fundraisingcampaignpledgeresolvers)
+- [FundraisingCampaignResolvers](types_generatedGraphQLTypes.md#fundraisingcampaignresolvers)
 - [Gender](types_generatedGraphQLTypes.md#gender)
 - [Group](types_generatedGraphQLTypes.md#group)
 - [GroupChat](types_generatedGraphQLTypes.md#groupchat)
@@ -136,9 +161,11 @@
 - [MutationAddLanguageTranslationArgs](types_generatedGraphQLTypes.md#mutationaddlanguagetranslationargs)
 - [MutationAddOrganizationCustomFieldArgs](types_generatedGraphQLTypes.md#mutationaddorganizationcustomfieldargs)
 - [MutationAddOrganizationImageArgs](types_generatedGraphQLTypes.md#mutationaddorganizationimageargs)
+- [MutationAddPledgeToFundraisingCampaignArgs](types_generatedGraphQLTypes.md#mutationaddpledgetofundraisingcampaignargs)
 - [MutationAddUserCustomDataArgs](types_generatedGraphQLTypes.md#mutationaddusercustomdataargs)
 - [MutationAddUserImageArgs](types_generatedGraphQLTypes.md#mutationadduserimageargs)
 - [MutationAddUserToGroupChatArgs](types_generatedGraphQLTypes.md#mutationaddusertogroupchatargs)
+- [MutationAddUserToUserFamilyArgs](types_generatedGraphQLTypes.md#mutationaddusertouserfamilyargs)
 - [MutationAdminRemoveEventArgs](types_generatedGraphQLTypes.md#mutationadminremoveeventargs)
 - [MutationAdminRemoveGroupArgs](types_generatedGraphQLTypes.md#mutationadminremovegroupargs)
 - [MutationAssignUserTagArgs](types_generatedGraphQLTypes.md#mutationassignusertagargs)
@@ -146,24 +173,34 @@
 - [MutationBlockUserArgs](types_generatedGraphQLTypes.md#mutationblockuserargs)
 - [MutationCancelMembershipRequestArgs](types_generatedGraphQLTypes.md#mutationcancelmembershiprequestargs)
 - [MutationCheckInArgs](types_generatedGraphQLTypes.md#mutationcheckinargs)
+- [MutationCheckInEventAttendeeArgs](types_generatedGraphQLTypes.md#mutationcheckineventattendeeargs)
+- [MutationCheckOutEventAttendeeArgs](types_generatedGraphQLTypes.md#mutationcheckouteventattendeeargs)
 - [MutationCreateActionItemArgs](types_generatedGraphQLTypes.md#mutationcreateactionitemargs)
 - [MutationCreateActionItemCategoryArgs](types_generatedGraphQLTypes.md#mutationcreateactionitemcategoryargs)
 - [MutationCreateAdminArgs](types_generatedGraphQLTypes.md#mutationcreateadminargs)
 - [MutationCreateAdvertisementArgs](types_generatedGraphQLTypes.md#mutationcreateadvertisementargs)
+- [MutationCreateAgendaCategoryArgs](types_generatedGraphQLTypes.md#mutationcreateagendacategoryargs)
 - [MutationCreateCommentArgs](types_generatedGraphQLTypes.md#mutationcreatecommentargs)
 - [MutationCreateDirectChatArgs](types_generatedGraphQLTypes.md#mutationcreatedirectchatargs)
 - [MutationCreateDonationArgs](types_generatedGraphQLTypes.md#mutationcreatedonationargs)
 - [MutationCreateEventArgs](types_generatedGraphQLTypes.md#mutationcreateeventargs)
+- [MutationCreateEventVolunteerArgs](types_generatedGraphQLTypes.md#mutationcreateeventvolunteerargs)
+- [MutationCreateFundArgs](types_generatedGraphQLTypes.md#mutationcreatefundargs)
+- [MutationCreateFundraisingCampaignArgs](types_generatedGraphQLTypes.md#mutationcreatefundraisingcampaignargs)
+- [MutationCreateFundraisingCampaignPledgeArgs](types_generatedGraphQLTypes.md#mutationcreatefundraisingcampaignpledgeargs)
 - [MutationCreateGroupChatArgs](types_generatedGraphQLTypes.md#mutationcreategroupchatargs)
 - [MutationCreateMemberArgs](types_generatedGraphQLTypes.md#mutationcreatememberargs)
 - [MutationCreateMessageChatArgs](types_generatedGraphQLTypes.md#mutationcreatemessagechatargs)
 - [MutationCreateOrganizationArgs](types_generatedGraphQLTypes.md#mutationcreateorganizationargs)
 - [MutationCreatePluginArgs](types_generatedGraphQLTypes.md#mutationcreatepluginargs)
 - [MutationCreatePostArgs](types_generatedGraphQLTypes.md#mutationcreatepostargs)
+- [MutationCreateUserFamilyArgs](types_generatedGraphQLTypes.md#mutationcreateuserfamilyargs)
 - [MutationCreateUserTagArgs](types_generatedGraphQLTypes.md#mutationcreateusertagargs)
 - [MutationDeleteAdvertisementByIdArgs](types_generatedGraphQLTypes.md#mutationdeleteadvertisementbyidargs)
+- [MutationDeleteAgendaCategoryArgs](types_generatedGraphQLTypes.md#mutationdeleteagendacategoryargs)
 - [MutationDeleteDonationByIdArgs](types_generatedGraphQLTypes.md#mutationdeletedonationbyidargs)
 - [MutationForgotPasswordArgs](types_generatedGraphQLTypes.md#mutationforgotpasswordargs)
+- [MutationInviteEventAttendeeArgs](types_generatedGraphQLTypes.md#mutationinviteeventattendeeargs)
 - [MutationJoinPublicOrganizationArgs](types_generatedGraphQLTypes.md#mutationjoinpublicorganizationargs)
 - [MutationLeaveOrganizationArgs](types_generatedGraphQLTypes.md#mutationleaveorganizationargs)
 - [MutationLikeCommentArgs](types_generatedGraphQLTypes.md#mutationlikecommentargs)
@@ -172,6 +209,7 @@
 - [MutationOtpArgs](types_generatedGraphQLTypes.md#mutationotpargs)
 - [MutationRecaptchaArgs](types_generatedGraphQLTypes.md#mutationrecaptchaargs)
 - [MutationRefreshTokenArgs](types_generatedGraphQLTypes.md#mutationrefreshtokenargs)
+- [MutationRegisterEventAttendeeArgs](types_generatedGraphQLTypes.md#mutationregistereventattendeeargs)
 - [MutationRegisterForEventArgs](types_generatedGraphQLTypes.md#mutationregisterforeventargs)
 - [MutationRejectAdminArgs](types_generatedGraphQLTypes.md#mutationrejectadminargs)
 - [MutationRejectMembershipRequestArgs](types_generatedGraphQLTypes.md#mutationrejectmembershiprequestargs)
@@ -182,6 +220,10 @@
 - [MutationRemoveDirectChatArgs](types_generatedGraphQLTypes.md#mutationremovedirectchatargs)
 - [MutationRemoveEventArgs](types_generatedGraphQLTypes.md#mutationremoveeventargs)
 - [MutationRemoveEventAttendeeArgs](types_generatedGraphQLTypes.md#mutationremoveeventattendeeargs)
+- [MutationRemoveEventVolunteerArgs](types_generatedGraphQLTypes.md#mutationremoveeventvolunteerargs)
+- [MutationRemoveFundArgs](types_generatedGraphQLTypes.md#mutationremovefundargs)
+- [MutationRemoveFundraisingCampaignArgs](types_generatedGraphQLTypes.md#mutationremovefundraisingcampaignargs)
+- [MutationRemoveFundraisingCampaignPledgeArgs](types_generatedGraphQLTypes.md#mutationremovefundraisingcampaignpledgeargs)
 - [MutationRemoveGroupChatArgs](types_generatedGraphQLTypes.md#mutationremovegroupchatargs)
 - [MutationRemoveMemberArgs](types_generatedGraphQLTypes.md#mutationremovememberargs)
 - [MutationRemoveOrganizationArgs](types_generatedGraphQLTypes.md#mutationremoveorganizationargs)
@@ -189,7 +231,9 @@
 - [MutationRemoveOrganizationImageArgs](types_generatedGraphQLTypes.md#mutationremoveorganizationimageargs)
 - [MutationRemovePostArgs](types_generatedGraphQLTypes.md#mutationremovepostargs)
 - [MutationRemoveUserCustomDataArgs](types_generatedGraphQLTypes.md#mutationremoveusercustomdataargs)
+- [MutationRemoveUserFamilyArgs](types_generatedGraphQLTypes.md#mutationremoveuserfamilyargs)
 - [MutationRemoveUserFromGroupChatArgs](types_generatedGraphQLTypes.md#mutationremoveuserfromgroupchatargs)
+- [MutationRemoveUserFromUserFamilyArgs](types_generatedGraphQLTypes.md#mutationremoveuserfromuserfamilyargs)
 - [MutationRemoveUserTagArgs](types_generatedGraphQLTypes.md#mutationremoveusertagargs)
 - [MutationResolvers](types_generatedGraphQLTypes.md#mutationresolvers)
 - [MutationSaveFcmTokenArgs](types_generatedGraphQLTypes.md#mutationsavefcmtokenargs)
@@ -206,7 +250,12 @@
 - [MutationUpdateActionItemArgs](types_generatedGraphQLTypes.md#mutationupdateactionitemargs)
 - [MutationUpdateActionItemCategoryArgs](types_generatedGraphQLTypes.md#mutationupdateactionitemcategoryargs)
 - [MutationUpdateAdvertisementArgs](types_generatedGraphQLTypes.md#mutationupdateadvertisementargs)
+- [MutationUpdateAgendaCategoryArgs](types_generatedGraphQLTypes.md#mutationupdateagendacategoryargs)
 - [MutationUpdateEventArgs](types_generatedGraphQLTypes.md#mutationupdateeventargs)
+- [MutationUpdateEventVolunteerArgs](types_generatedGraphQLTypes.md#mutationupdateeventvolunteerargs)
+- [MutationUpdateFundArgs](types_generatedGraphQLTypes.md#mutationupdatefundargs)
+- [MutationUpdateFundraisingCampaignArgs](types_generatedGraphQLTypes.md#mutationupdatefundraisingcampaignargs)
+- [MutationUpdateFundraisingCampaignPledgeArgs](types_generatedGraphQLTypes.md#mutationupdatefundraisingcampaignpledgeargs)
 - [MutationUpdateLanguageArgs](types_generatedGraphQLTypes.md#mutationupdatelanguageargs)
 - [MutationUpdateOrganizationArgs](types_generatedGraphQLTypes.md#mutationupdateorganizationargs)
 - [MutationUpdatePluginStatusArgs](types_generatedGraphQLTypes.md#mutationupdatepluginstatusargs)
@@ -256,16 +305,23 @@
 - [QueryActionItemsByEventArgs](types_generatedGraphQLTypes.md#queryactionitemsbyeventargs)
 - [QueryActionItemsByOrganizationArgs](types_generatedGraphQLTypes.md#queryactionitemsbyorganizationargs)
 - [QueryAdminPluginArgs](types_generatedGraphQLTypes.md#queryadminpluginargs)
+- [QueryAgendaCategoryArgs](types_generatedGraphQLTypes.md#queryagendacategoryargs)
 - [QueryCustomDataByOrganizationArgs](types_generatedGraphQLTypes.md#querycustomdatabyorganizationargs)
 - [QueryCustomFieldsByOrganizationArgs](types_generatedGraphQLTypes.md#querycustomfieldsbyorganizationargs)
 - [QueryDirectChatsByUserIdArgs](types_generatedGraphQLTypes.md#querydirectchatsbyuseridargs)
 - [QueryDirectChatsMessagesByChatIdArgs](types_generatedGraphQLTypes.md#querydirectchatsmessagesbychatidargs)
 - [QueryEventArgs](types_generatedGraphQLTypes.md#queryeventargs)
+- [QueryEventVolunteersByEventArgs](types_generatedGraphQLTypes.md#queryeventvolunteersbyeventargs)
 - [QueryEventsByOrganizationArgs](types_generatedGraphQLTypes.md#queryeventsbyorganizationargs)
 - [QueryEventsByOrganizationConnectionArgs](types_generatedGraphQLTypes.md#queryeventsbyorganizationconnectionargs)
 - [QueryGetDonationByIdArgs](types_generatedGraphQLTypes.md#querygetdonationbyidargs)
 - [QueryGetDonationByOrgIdArgs](types_generatedGraphQLTypes.md#querygetdonationbyorgidargs)
 - [QueryGetDonationByOrgIdConnectionArgs](types_generatedGraphQLTypes.md#querygetdonationbyorgidconnectionargs)
+- [QueryGetEventAttendeeArgs](types_generatedGraphQLTypes.md#querygeteventattendeeargs)
+- [QueryGetEventAttendeesByEventIdArgs](types_generatedGraphQLTypes.md#querygeteventattendeesbyeventidargs)
+- [QueryGetFundByIdArgs](types_generatedGraphQLTypes.md#querygetfundbyidargs)
+- [QueryGetFundraisingCampaignByIdArgs](types_generatedGraphQLTypes.md#querygetfundraisingcampaignbyidargs)
+- [QueryGetFundraisingCampaignPledgeByIdArgs](types_generatedGraphQLTypes.md#querygetfundraisingcampaignpledgebyidargs)
 - [QueryGetlanguageArgs](types_generatedGraphQLTypes.md#querygetlanguageargs)
 - [QueryHasSubmittedFeedbackArgs](types_generatedGraphQLTypes.md#queryhassubmittedfeedbackargs)
 - [QueryIsSampleOrganizationArgs](types_generatedGraphQLTypes.md#queryissampleorganizationargs)
@@ -286,6 +342,8 @@
 - [QueryUsersConnectionArgs](types_generatedGraphQLTypes.md#queryusersconnectionargs)
 - [RecaptchaVerification](types_generatedGraphQLTypes.md#recaptchaverification)
 - [Recurrance](types_generatedGraphQLTypes.md#recurrance)
+- [RecurrenceRuleInput](types_generatedGraphQLTypes.md#recurrenceruleinput)
+- [RecurringEventUpdateType](types_generatedGraphQLTypes.md#recurringeventupdatetype)
 - [RequireFields](types_generatedGraphQLTypes.md#requirefields)
 - [Resolver](types_generatedGraphQLTypes.md#resolver)
 - [ResolverFn](types_generatedGraphQLTypes.md#resolverfn)
@@ -298,6 +356,7 @@
 - [RoleDirectiveArgs](types_generatedGraphQLTypes.md#roledirectiveargs)
 - [RoleDirectiveResolver](types_generatedGraphQLTypes.md#roledirectiveresolver)
 - [Scalars](types_generatedGraphQLTypes.md#scalars)
+- [SortedByOrder](types_generatedGraphQLTypes.md#sortedbyorder)
 - [Status](types_generatedGraphQLTypes.md#status)
 - [Subscription](types_generatedGraphQLTypes.md#subscription)
 - [SubscriptionObject](types_generatedGraphQLTypes.md#subscriptionobject)
@@ -319,7 +378,12 @@
 - [UpdateAdvertisementInput](types_generatedGraphQLTypes.md#updateadvertisementinput)
 - [UpdateAdvertisementPayload](types_generatedGraphQLTypes.md#updateadvertisementpayload)
 - [UpdateAdvertisementPayloadResolvers](types_generatedGraphQLTypes.md#updateadvertisementpayloadresolvers)
+- [UpdateAgendaCategoryInput](types_generatedGraphQLTypes.md#updateagendacategoryinput)
 - [UpdateEventInput](types_generatedGraphQLTypes.md#updateeventinput)
+- [UpdateEventVolunteerInput](types_generatedGraphQLTypes.md#updateeventvolunteerinput)
+- [UpdateFundCampaignInput](types_generatedGraphQLTypes.md#updatefundcampaigninput)
+- [UpdateFundCampaignPledgeInput](types_generatedGraphQLTypes.md#updatefundcampaignpledgeinput)
+- [UpdateFundInput](types_generatedGraphQLTypes.md#updatefundinput)
 - [UpdateOrganizationInput](types_generatedGraphQLTypes.md#updateorganizationinput)
 - [UpdateUserInput](types_generatedGraphQLTypes.md#updateuserinput)
 - [UpdateUserPasswordInput](types_generatedGraphQLTypes.md#updateuserpasswordinput)
@@ -331,8 +395,8 @@
 - [UserConnectionResolvers](types_generatedGraphQLTypes.md#userconnectionresolvers)
 - [UserCustomData](types_generatedGraphQLTypes.md#usercustomdata)
 - [UserCustomDataResolvers](types_generatedGraphQLTypes.md#usercustomdataresolvers)
-- [UserEdge](types_generatedGraphQLTypes.md#useredge)
-- [UserEdgeResolvers](types_generatedGraphQLTypes.md#useredgeresolvers)
+- [UserFamily](types_generatedGraphQLTypes.md#userfamily)
+- [UserFamilyResolvers](types_generatedGraphQLTypes.md#userfamilyresolvers)
 - [UserInput](types_generatedGraphQLTypes.md#userinput)
 - [UserOrderByInput](types_generatedGraphQLTypes.md#userorderbyinput)
 - [UserPhone](types_generatedGraphQLTypes.md#userphone)
@@ -341,23 +405,20 @@
 - [UserResolvers](types_generatedGraphQLTypes.md#userresolvers)
 - [UserTag](types_generatedGraphQLTypes.md#usertag)
 - [UserTagChildTagsArgs](types_generatedGraphQLTypes.md#usertagchildtagsargs)
-- [UserTagEdge](types_generatedGraphQLTypes.md#usertagedge)
-- [UserTagEdgeResolvers](types_generatedGraphQLTypes.md#usertagedgeresolvers)
 - [UserTagResolvers](types_generatedGraphQLTypes.md#usertagresolvers)
 - [UserTagUsersAssignedToArgs](types_generatedGraphQLTypes.md#usertagusersassignedtoargs)
 - [UserTagsAssignedWithArgs](types_generatedGraphQLTypes.md#usertagsassignedwithargs)
 - [UserTagsConnection](types_generatedGraphQLTypes.md#usertagsconnection)
-- [UserTagsConnectionInput](types_generatedGraphQLTypes.md#usertagsconnectioninput)
+- [UserTagsConnectionEdge](types_generatedGraphQLTypes.md#usertagsconnectionedge)
+- [UserTagsConnectionEdgeResolvers](types_generatedGraphQLTypes.md#usertagsconnectionedgeresolvers)
 - [UserTagsConnectionResolvers](types_generatedGraphQLTypes.md#usertagsconnectionresolvers)
-- [UserTagsConnectionResult](types_generatedGraphQLTypes.md#usertagsconnectionresult)
-- [UserTagsConnectionResultResolvers](types_generatedGraphQLTypes.md#usertagsconnectionresultresolvers)
 - [UserType](types_generatedGraphQLTypes.md#usertype)
 - [UserWhereInput](types_generatedGraphQLTypes.md#userwhereinput)
 - [UsersConnection](types_generatedGraphQLTypes.md#usersconnection)
-- [UsersConnectionInput](types_generatedGraphQLTypes.md#usersconnectioninput)
+- [UsersConnectionEdge](types_generatedGraphQLTypes.md#usersconnectionedge)
+- [UsersConnectionEdgeResolvers](types_generatedGraphQLTypes.md#usersconnectionedgeresolvers)
 - [UsersConnectionResolvers](types_generatedGraphQLTypes.md#usersconnectionresolvers)
-- [UsersConnectionResult](types_generatedGraphQLTypes.md#usersconnectionresult)
-- [UsersConnectionResultResolvers](types_generatedGraphQLTypes.md#usersconnectionresultresolvers)
+- [WeekDays](types_generatedGraphQLTypes.md#weekdays)
 
 ## Type Aliases
 
@@ -387,7 +448,7 @@
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:56](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L56)
+[src/types/generatedGraphQLTypes.ts:62](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L62)
 
 ___
 
@@ -410,7 +471,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:74](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L74)
+[src/types/generatedGraphQLTypes.ts:80](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L80)
 
 ___
 
@@ -440,7 +501,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2346](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2346)
+[src/types/generatedGraphQLTypes.ts:3008](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3008)
 
 ___
 
@@ -477,7 +538,36 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2328](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2328)
+[src/types/generatedGraphQLTypes.ts:2990](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2990)
+
+___
+
+### ActionItemWhereInput
+
+Ƭ **ActionItemWhereInput**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `actionItemCategory_id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
+| `event_id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
+| `is_active?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"input"``]\> |
+| `is_completed?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"input"``]\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:91](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L91)
+
+___
+
+### ActionItemsOrderByInput
+
+Ƭ **ActionItemsOrderByInput**: ``"createdAt_ASC"`` \| ``"createdAt_DESC"``
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:98](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L98)
 
 ___
 
@@ -501,7 +591,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:85](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L85)
+[src/types/generatedGraphQLTypes.ts:102](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L102)
 
 ___
 
@@ -524,7 +614,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:97](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L97)
+[src/types/generatedGraphQLTypes.ts:114](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L114)
 
 ___
 
@@ -555,7 +645,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2357](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2357)
+[src/types/generatedGraphQLTypes.ts:3019](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3019)
 
 ___
 
@@ -581,7 +671,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:108](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L108)
+[src/types/generatedGraphQLTypes.ts:125](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L125)
 
 ___
 
@@ -614,7 +704,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2369](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2369)
+[src/types/generatedGraphQLTypes.ts:3031](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3031)
 
 ___
 
@@ -624,7 +714,62 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:122](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L122)
+[src/types/generatedGraphQLTypes.ts:139](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L139)
+
+___
+
+### AgendaCategory
+
+Ƭ **AgendaCategory**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__typename?` | ``"AgendaCategory"`` |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"output"``] |
+| `createdBy` | [`User`](types_generatedGraphQLTypes.md#user) |
+| `description?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
+| `name` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `organization` | [`Organization`](types_generatedGraphQLTypes.md#organization) |
+| `updatedAt?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"output"``]\> |
+| `updatedBy?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:144](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L144)
+
+___
+
+### AgendaCategoryResolvers
+
+Ƭ **AgendaCategoryResolvers**\<`ContextType`, `ParentType`\>: `Object`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ContextType` | `any` |
+| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"AgendaCategory"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"AgendaCategory"``] |
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Date"``], `ParentType`, `ContextType`\> |
+| `createdBy?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `description?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `name?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `organization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`\> |
+| `updatedAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Date"``]\>, `ParentType`, `ContextType`\> |
+| `updatedBy?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>, `ParentType`, `ContextType`\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:3045](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3045)
 
 ___
 
@@ -641,7 +786,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:127](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L127)
+[src/types/generatedGraphQLTypes.ts:156](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L156)
 
 ___
 
@@ -665,7 +810,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2383](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2383)
+[src/types/generatedGraphQLTypes.ts:3057](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3057)
 
 ___
 
@@ -682,7 +827,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:132](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L132)
+[src/types/generatedGraphQLTypes.ts:161](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L161)
 
 ___
 
@@ -706,7 +851,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2388](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2388)
+[src/types/generatedGraphQLTypes.ts:3062](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3062)
 
 ___
 
@@ -725,7 +870,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:137](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L137)
+[src/types/generatedGraphQLTypes.ts:166](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L166)
 
 ___
 
@@ -751,7 +896,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2397](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2397)
+[src/types/generatedGraphQLTypes.ts:3071](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3071)
 
 ___
 
@@ -761,7 +906,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2318](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2318)
+[src/types/generatedGraphQLTypes.ts:2980](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2980)
 
 ___
 
@@ -780,7 +925,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2320](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2320)
+[src/types/generatedGraphQLTypes.ts:2982](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2982)
 
 ___
 
@@ -794,8 +939,6 @@ ___
 | :------ | :------ |
 | `__typename?` | ``"CheckIn"`` |
 | `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
-| `allotedRoom?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
-| `allotedSeat?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
 | `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
 | `event` | [`Event`](types_generatedGraphQLTypes.md#event) |
 | `feedbackSubmitted` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
@@ -805,7 +948,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:144](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L144)
+[src/types/generatedGraphQLTypes.ts:173](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L173)
 
 ___
 
@@ -817,14 +960,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `allotedRoom?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
-| `allotedSeat?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
 | `eventId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 | `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:157](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L157)
+[src/types/generatedGraphQLTypes.ts:184](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L184)
 
 ___
 
@@ -845,8 +986,6 @@ ___
 | :------ | :------ |
 | `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
 | `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
-| `allotedRoom?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `allotedSeat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
 | `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
 | `event?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`\> |
 | `feedbackSubmitted?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
@@ -856,7 +995,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2404](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2404)
+[src/types/generatedGraphQLTypes.ts:3078](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3078)
 
 ___
 
@@ -875,7 +1014,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:164](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L164)
+[src/types/generatedGraphQLTypes.ts:189](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L189)
 
 ___
 
@@ -901,7 +1040,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2417](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2417)
+[src/types/generatedGraphQLTypes.ts:3089](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3089)
 
 ___
 
@@ -925,7 +1064,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:171](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L171)
+[src/types/generatedGraphQLTypes.ts:196](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L196)
 
 ___
 
@@ -941,7 +1080,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:183](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L183)
+[src/types/generatedGraphQLTypes.ts:208](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L208)
 
 ___
 
@@ -972,7 +1111,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2424](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2424)
+[src/types/generatedGraphQLTypes.ts:3096](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3096)
 
 ___
 
@@ -982,7 +1121,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:187](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L187)
+[src/types/generatedGraphQLTypes.ts:212](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L212)
 
 ___
 
@@ -1005,7 +1144,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2436](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2436)
+[src/types/generatedGraphQLTypes.ts:3108](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3108)
 
 ___
 
@@ -1013,19 +1152,22 @@ ___
 
 Ƭ **ConnectionPageInfo**: `Object`
 
+The standard graphQL connection page info that contains metadata about a
+particular instance of a connection. ALl other custom connection page info
+types must implement this interface.
+
 #### Type declaration
 
-| Name | Type |
-| :------ | :------ |
-| `__typename?` | ``"ConnectionPageInfo"`` |
-| `endCursor?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
-| `hasNextPage` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
-| `hasPreviousPage` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
-| `startCursor?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `endCursor?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> | A field to tell the value of cursor for the last edge of a particular instance of a connection. |
+| `hasNextPage` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] | A field to tell whether the connection has additional edges after the edge with endCursor as its cursor. |
+| `hasPreviousPage` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] | A field to tell whether the connection has additional edges before the edge with startCursor as its cursor. |
+| `startCursor?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> | A field to tell the value of cursor for the first edge of a particular instance of a connection. |
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:189](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L189)
+[src/types/generatedGraphQLTypes.ts:219](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L219)
 
 ___
 
@@ -1044,7 +1186,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `__resolveType` | [`TypeResolveFn`](types_generatedGraphQLTypes.md#typeresolvefn)\<``"DefaultConnectionPageInfo"``, `ParentType`, `ContextType`\> |
 | `endCursor?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
 | `hasNextPage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
 | `hasPreviousPage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
@@ -1052,7 +1194,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2440](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2440)
+[src/types/generatedGraphQLTypes.ts:3112](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3112)
 
 ___
 
@@ -1071,7 +1213,25 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:197](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L197)
+[src/types/generatedGraphQLTypes.ts:242](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L242)
+
+___
+
+### CreateAgendaCategoryInput
+
+Ƭ **CreateAgendaCategoryInput**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `description?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `name` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:249](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L249)
 
 ___
 
@@ -1088,7 +1248,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1969](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1969)
+[src/types/generatedGraphQLTypes.ts:2584](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2584)
 
 ___
 
@@ -1106,7 +1266,24 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1974](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1974)
+[src/types/generatedGraphQLTypes.ts:2589](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2589)
+
+___
+
+### CreateUserFamilyInput
+
+Ƭ **CreateUserFamilyInput**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `title` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `userIds` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``][] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2595](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2595)
 
 ___
 
@@ -1124,7 +1301,17 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:204](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L204)
+[src/types/generatedGraphQLTypes.ts:255](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L255)
+
+___
+
+### Currency
+
+Ƭ **Currency**: ``"AED"`` \| ``"AFN"`` \| ``"ALL"`` \| ``"AMD"`` \| ``"ANG"`` \| ``"AOA"`` \| ``"ARS"`` \| ``"AUD"`` \| ``"AWG"`` \| ``"AZN"`` \| ``"BAM"`` \| ``"BBD"`` \| ``"BDT"`` \| ``"BGN"`` \| ``"BHD"`` \| ``"BIF"`` \| ``"BMD"`` \| ``"BND"`` \| ``"BOB"`` \| ``"BRL"`` \| ``"BSD"`` \| ``"BTN"`` \| ``"BWP"`` \| ``"BYN"`` \| ``"BZD"`` \| ``"CAD"`` \| ``"CDF"`` \| ``"CHF"`` \| ``"CLP"`` \| ``"CNY"`` \| ``"COP"`` \| ``"CRC"`` \| ``"CUP"`` \| ``"CVE"`` \| ``"CZK"`` \| ``"DJF"`` \| ``"DKK"`` \| ``"DOP"`` \| ``"DZD"`` \| ``"EGP"`` \| ``"ERN"`` \| ``"ETB"`` \| ``"EUR"`` \| ``"FJD"`` \| ``"FKP"`` \| ``"FOK"`` \| ``"FRO"`` \| ``"GBP"`` \| ``"GEL"`` \| ``"GGP"`` \| ``"GHS"`` \| ``"GIP"`` \| ``"GMD"`` \| ``"GNF"`` \| ``"GTQ"`` \| ``"GYD"`` \| ``"HKD"`` \| ``"HNL"`` \| ``"HRK"`` \| ``"HTG"`` \| ``"HUF"`` \| ``"IDR"`` \| ``"ILS"`` \| ``"IMP"`` \| ``"INR"`` \| ``"IQD"`` \| ``"IRR"`` \| ``"ISK"`` \| ``"JEP"`` \| ``"JMD"`` \| ``"JOD"`` \| ``"JPY"`` \| ``"KES"`` \| ``"KGS"`` \| ``"KHR"`` \| ``"KID"`` \| ``"KMF"`` \| ``"KRW"`` \| ``"KWD"`` \| ``"KYD"`` \| ``"KZT"`` \| ``"LAK"`` \| ``"LBP"`` \| ``"LKR"`` \| ``"LRD"`` \| ``"LSL"`` \| ``"LYD"`` \| ``"MAD"`` \| ``"MDL"`` \| ``"MGA"`` \| ``"MKD"`` \| ``"MMK"`` \| ``"MNT"`` \| ``"MOP"`` \| ``"MRU"`` \| ``"MUR"`` \| ``"MVR"`` \| ``"MWK"`` \| ``"MXN"`` \| ``"MYR"`` \| ``"MZN"`` \| ``"NAD"`` \| ``"NGN"`` \| ``"NIO"`` \| ``"NOK"`` \| ``"NPR"`` \| ``"NZD"`` \| ``"OMR"`` \| ``"PAB"`` \| ``"PEN"`` \| ``"PGK"`` \| ``"PHP"`` \| ``"PKR"`` \| ``"PLN"`` \| ``"PYG"`` \| ``"QAR"`` \| ``"RON"`` \| ``"RSD"`` \| ``"RUB"`` \| ``"RWF"`` \| ``"SAR"`` \| ``"SBD"`` \| ``"SCR"`` \| ``"SDG"`` \| ``"SEK"`` \| ``"SGD"`` \| ``"SHP"`` \| ``"SLL"`` \| ``"SOS"`` \| ``"SPL"`` \| ``"SRD"`` \| ``"STN"`` \| ``"SVC"`` \| ``"SYP"`` \| ``"SZL"`` \| ``"THB"`` \| ``"TJS"`` \| ``"TMT"`` \| ``"TND"`` \| ``"TOP"`` \| ``"TRY"`` \| ``"TTD"`` \| ``"TVD"`` \| ``"TWD"`` \| ``"TZS"`` \| ``"UAH"`` \| ``"UGX"`` \| ``"USD"`` \| ``"UYU"`` \| ``"UZS"`` \| ``"VEF"`` \| ``"VND"`` \| ``"VUV"`` \| ``"WST"`` \| ``"XAF"`` \| ``"XCD"`` \| ``"XDR"`` \| ``"XOF"`` \| ``"XPF"`` \| ``"YER"`` \| ``"ZAR"`` \| ``"ZMW"`` \| ``"ZWD"``
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:261](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L261)
 
 ___
 
@@ -1142,7 +1329,47 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:210](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L210)
+[src/types/generatedGraphQLTypes.ts:426](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L426)
+
+___
+
+### DefaultConnectionPageInfo
+
+Ƭ **DefaultConnectionPageInfo**: [`ConnectionPageInfo`](types_generatedGraphQLTypes.md#connectionpageinfo) & \{ `__typename?`: ``"DefaultConnectionPageInfo"`` ; `endCursor?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> ; `hasNextPage`: [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] ; `hasPreviousPage`: [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] ; `startCursor?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\>  \}
+
+Default connection page info for containing the metadata for a connection
+instance.
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:436](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L436)
+
+___
+
+### DefaultConnectionPageInfoResolvers
+
+Ƭ **DefaultConnectionPageInfoResolvers**\<`ContextType`, `ParentType`\>: `Object`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ContextType` | `any` |
+| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"DefaultConnectionPageInfo"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"DefaultConnectionPageInfo"``] |
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `endCursor?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `hasNextPage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
+| `hasPreviousPage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
+| `startCursor?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:3132](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3132)
 
 ___
 
@@ -1159,7 +1386,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:216](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L216)
+[src/types/generatedGraphQLTypes.ts:444](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L444)
 
 ___
 
@@ -1183,7 +1410,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2460](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2460)
+[src/types/generatedGraphQLTypes.ts:3140](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3140)
 
 ___
 
@@ -1206,7 +1433,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:221](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L221)
+[src/types/generatedGraphQLTypes.ts:449](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L449)
 
 ___
 
@@ -1229,7 +1456,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:232](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L232)
+[src/types/generatedGraphQLTypes.ts:460](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L460)
 
 ___
 
@@ -1259,7 +1486,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2476](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2476)
+[src/types/generatedGraphQLTypes.ts:3156](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3156)
 
 ___
 
@@ -1289,7 +1516,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2465](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2465)
+[src/types/generatedGraphQLTypes.ts:3145](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3145)
 
 ___
 
@@ -1326,7 +1553,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2035](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2035)
+[src/types/generatedGraphQLTypes.ts:2655](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2655)
 
 ___
 
@@ -1349,7 +1576,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:3145](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L3145)
+[src/types/generatedGraphQLTypes.ts:3926](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3926)
 
 ___
 
@@ -1374,7 +1601,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:243](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L243)
+[src/types/generatedGraphQLTypes.ts:471](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L471)
 
 ___
 
@@ -1406,7 +1633,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2487](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2487)
+[src/types/generatedGraphQLTypes.ts:3167](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3167)
 
 ___
 
@@ -1433,7 +1660,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:256](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L256)
+[src/types/generatedGraphQLTypes.ts:484](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L484)
 
 ___
 
@@ -1443,7 +1670,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:271](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L271)
+[src/types/generatedGraphQLTypes.ts:499](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L499)
 
 ___
 
@@ -1453,7 +1680,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:289](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L289)
+[src/types/generatedGraphQLTypes.ts:517](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L517)
 
 ___
 
@@ -1469,7 +1696,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:294](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L294)
+[src/types/generatedGraphQLTypes.ts:522](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L522)
 
 ___
 
@@ -1493,7 +1720,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2504](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2504)
+[src/types/generatedGraphQLTypes.ts:3184](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3184)
 
 ___
 
@@ -1516,7 +1743,7 @@ ___
 | `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
 | `creator?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\> |
 | `description` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
-| `endDate` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"output"``] |
+| `endDate?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"output"``]\> |
 | `endTime?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``][``"output"``]\> |
 | `feedback` | [`Feedback`](types_generatedGraphQLTypes.md#feedback)[] |
 | `isPublic` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
@@ -1535,7 +1762,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:298](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L298)
+[src/types/generatedGraphQLTypes.ts:526](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L526)
 
 ___
 
@@ -1551,7 +1778,33 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:329](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L329)
+[src/types/generatedGraphQLTypes.ts:557](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L557)
+
+___
+
+### EventAttendee
+
+Ƭ **EventAttendee**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__typename?` | ``"EventAttendee"`` |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `checkInId?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``]\> |
+| `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+| `eventId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `isCheckedIn` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
+| `isCheckedOut` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
+| `isInvited` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
+| `isRegistered` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
+| `updatedAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:561](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L561)
 
 ___
 
@@ -1568,7 +1821,40 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:333](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L333)
+[src/types/generatedGraphQLTypes.ts:575](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L575)
+
+___
+
+### EventAttendeeResolvers
+
+Ƭ **EventAttendeeResolvers**\<`ContextType`, `ParentType`\>: `Object`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ContextType` | `any` |
+| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"EventAttendee"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"EventAttendee"``] |
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `checkInId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``]\>, `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
+| `eventId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `isCheckedIn?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
+| `isCheckedOut?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
+| `isInvited?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
+| `isRegistered?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
+| `updatedAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
+| `userId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:3219](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3219)
 
 ___
 
@@ -1598,7 +1884,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:338](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L338)
+[src/types/generatedGraphQLTypes.ts:580](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L580)
 
 ___
 
@@ -1608,7 +1894,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:356](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L356)
+[src/types/generatedGraphQLTypes.ts:598](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L598)
 
 ___
 
@@ -1638,7 +1924,7 @@ ___
 | `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
 | `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>, `ParentType`, `ContextType`\> |
 | `description?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `endDate?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Date"``], `ParentType`, `ContextType`\> |
+| `endDate?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Date"``]\>, `ParentType`, `ContextType`\> |
 | `endTime?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Time"``]\>, `ParentType`, `ContextType`\> |
 | `feedback?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Feedback"``][], `ParentType`, `ContextType`\> |
 | `isPublic?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
@@ -1657,7 +1943,91 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2509](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2509)
+[src/types/generatedGraphQLTypes.ts:3189](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3189)
+
+___
+
+### EventVolunteer
+
+Ƭ **EventVolunteer**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__typename?` | ``"EventVolunteer"`` |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+| `creator?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\> |
+| `event?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Event`](types_generatedGraphQLTypes.md#event)\> |
+| `isAssigned?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``]\> |
+| `isInvited?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``]\> |
+| `response?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
+| `updatedAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+| `user` | [`User`](types_generatedGraphQLTypes.md#user) |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:620](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L620)
+
+___
+
+### EventVolunteerInput
+
+Ƭ **EventVolunteerInput**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `eventId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:633](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L633)
+
+___
+
+### EventVolunteerResolvers
+
+Ƭ **EventVolunteerResolvers**\<`ContextType`, `ParentType`\>: `Object`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ContextType` | `any` |
+| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"EventVolunteer"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"EventVolunteer"``] |
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
+| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>, `ParentType`, `ContextType`\> |
+| `event?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``]\>, `ParentType`, `ContextType`\> |
+| `isAssigned?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``]\>, `ParentType`, `ContextType`\> |
+| `isInvited?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``]\>, `ParentType`, `ContextType`\> |
+| `response?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `updatedAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
+| `user?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:3233](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3233)
+
+___
+
+### EventVolunteerResponse
+
+Ƭ **EventVolunteerResponse**: ``"NO"`` \| ``"YES"``
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:638](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L638)
 
 ___
 
@@ -1697,7 +2067,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:378](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L378)
+[src/types/generatedGraphQLTypes.ts:642](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L642)
 
 ___
 
@@ -1713,7 +2083,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L27)
+[src/types/generatedGraphQLTypes.ts:33](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L33)
 
 ___
 
@@ -1731,7 +2101,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:406](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L406)
+[src/types/generatedGraphQLTypes.ts:670](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L670)
 
 ___
 
@@ -1756,7 +2126,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2539](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2539)
+[src/types/generatedGraphQLTypes.ts:3246](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3246)
 
 ___
 
@@ -1778,7 +2148,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:412](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L412)
+[src/types/generatedGraphQLTypes.ts:676](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L676)
 
 ___
 
@@ -1796,7 +2166,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:422](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L422)
+[src/types/generatedGraphQLTypes.ts:686](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L686)
 
 ___
 
@@ -1825,7 +2195,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2545](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2545)
+[src/types/generatedGraphQLTypes.ts:3252](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3252)
 
 ___
 
@@ -1842,7 +2212,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:428](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L428)
+[src/types/generatedGraphQLTypes.ts:692](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L692)
 
 ___
 
@@ -1867,7 +2237,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2555](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2555)
+[src/types/generatedGraphQLTypes.ts:3262](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3262)
 
 ___
 
@@ -1885,7 +2255,251 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:433](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L433)
+[src/types/generatedGraphQLTypes.ts:697](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L697)
+
+___
+
+### Frequency
+
+Ƭ **Frequency**: ``"DAILY"`` \| ``"MONTHLY"`` \| ``"WEEKLY"`` \| ``"YEARLY"``
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:703](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L703)
+
+___
+
+### Fund
+
+Ƭ **Fund**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__typename?` | ``"Fund"`` |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `campaigns?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`FundraisingCampaign`](types_generatedGraphQLTypes.md#fundraisingcampaign)[]\> |
+| `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+| `isArchived` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
+| `isDefault` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
+| `name` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `refrenceNumber?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
+| `taxDeductible` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
+| `updatedAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:709](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L709)
+
+___
+
+### FundCampaignInput
+
+Ƭ **FundCampaignInput**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `currency` | [`Currency`](types_generatedGraphQLTypes.md#currency) |
+| `endDate` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"input"``] |
+| `fundId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `fundingGoal` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Float"``][``"input"``] |
+| `name` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `startDate` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:723](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L723)
+
+___
+
+### FundCampaignPledgeInput
+
+Ƭ **FundCampaignPledgeInput**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `amount` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Float"``][``"input"``] |
+| `campaignId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `currency` | [`Currency`](types_generatedGraphQLTypes.md#currency) |
+| `endDate?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"input"``]\> |
+| `startDate?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"input"``]\> |
+| `userIds` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``][] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:732](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L732)
+
+___
+
+### FundInput
+
+Ƭ **FundInput**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `isArchived` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"input"``] |
+| `isDefault` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"input"``] |
+| `name` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `refrenceNumber?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `taxDeductible` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:741](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L741)
+
+___
+
+### FundResolvers
+
+Ƭ **FundResolvers**\<`ContextType`, `ParentType`\>: `Object`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ContextType` | `any` |
+| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"Fund"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"Fund"``] |
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `campaigns?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"FundraisingCampaign"``][]\>, `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
+| `isArchived?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
+| `isDefault?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
+| `name?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `organizationId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `refrenceNumber?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `taxDeductible?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
+| `updatedAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:3268](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3268)
+
+___
+
+### FundraisingCampaign
+
+Ƭ **FundraisingCampaign**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__typename?` | ``"FundraisingCampaign"`` |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+| `currency` | [`Currency`](types_generatedGraphQLTypes.md#currency) |
+| `endDate` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"output"``] |
+| `fundId` | [`Fund`](types_generatedGraphQLTypes.md#fund) |
+| `fundingGoal` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Float"``][``"output"``] |
+| `name` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `pledges?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`FundraisingCampaignPledge`](types_generatedGraphQLTypes.md#fundraisingcampaignpledge)\>[]\> |
+| `startDate` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"output"``] |
+| `updatedAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:750](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L750)
+
+___
+
+### FundraisingCampaignPledge
+
+Ƭ **FundraisingCampaignPledge**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__typename?` | ``"FundraisingCampaignPledge"`` |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `amount` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Float"``][``"output"``] |
+| `campaigns` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`FundraisingCampaign`](types_generatedGraphQLTypes.md#fundraisingcampaign)\>[] |
+| `currency` | [`Currency`](types_generatedGraphQLTypes.md#currency) |
+| `endDate?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"output"``]\> |
+| `startDate?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"output"``]\> |
+| `users` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\>[] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:764](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L764)
+
+___
+
+### FundraisingCampaignPledgeResolvers
+
+Ƭ **FundraisingCampaignPledgeResolvers**\<`ContextType`, `ParentType`\>: `Object`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ContextType` | `any` |
+| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"FundraisingCampaignPledge"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"FundraisingCampaignPledge"``] |
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `amount?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Float"``], `ParentType`, `ContextType`\> |
+| `campaigns?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"FundraisingCampaign"``]\>[], `ParentType`, `ContextType`\> |
+| `currency?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Currency"``], `ParentType`, `ContextType`\> |
+| `endDate?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Date"``]\>, `ParentType`, `ContextType`\> |
+| `startDate?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Date"``]\>, `ParentType`, `ContextType`\> |
+| `users?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[], `ParentType`, `ContextType`\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:3296](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3296)
+
+___
+
+### FundraisingCampaignResolvers
+
+Ƭ **FundraisingCampaignResolvers**\<`ContextType`, `ParentType`\>: `Object`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ContextType` | `any` |
+| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"FundraisingCampaign"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"FundraisingCampaign"``] |
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
+| `currency?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Currency"``], `ParentType`, `ContextType`\> |
+| `endDate?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Date"``], `ParentType`, `ContextType`\> |
+| `fundId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Fund"``], `ParentType`, `ContextType`\> |
+| `fundingGoal?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Float"``], `ParentType`, `ContextType`\> |
+| `name?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `pledges?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"FundraisingCampaignPledge"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `startDate?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Date"``], `ParentType`, `ContextType`\> |
+| `updatedAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:3282](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3282)
 
 ___
 
@@ -1895,7 +2509,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:439](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L439)
+[src/types/generatedGraphQLTypes.ts:775](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L775)
 
 ___
 
@@ -1918,7 +2532,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:444](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L444)
+[src/types/generatedGraphQLTypes.ts:780](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L780)
 
 ___
 
@@ -1941,7 +2555,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:455](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L455)
+[src/types/generatedGraphQLTypes.ts:791](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L791)
 
 ___
 
@@ -1963,7 +2577,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:466](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L466)
+[src/types/generatedGraphQLTypes.ts:802](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L802)
 
 ___
 
@@ -1992,7 +2606,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2583](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2583)
+[src/types/generatedGraphQLTypes.ts:3329](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3329)
 
 ___
 
@@ -2022,7 +2636,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2572](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2572)
+[src/types/generatedGraphQLTypes.ts:3318](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3318)
 
 ___
 
@@ -2052,7 +2666,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2561](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2561)
+[src/types/generatedGraphQLTypes.ts:3307](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3307)
 
 ___
 
@@ -2068,7 +2682,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:31](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L31)
+[src/types/generatedGraphQLTypes.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L37)
 
 ___
 
@@ -2084,7 +2698,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:26](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L26)
+[src/types/generatedGraphQLTypes.ts:32](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L32)
 
 ___
 
@@ -2094,7 +2708,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:476](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L476)
+[src/types/generatedGraphQLTypes.ts:812](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L812)
 
 ___
 
@@ -2119,7 +2733,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2593](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2593)
+[src/types/generatedGraphQLTypes.ts:3339](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3339)
 
 ___
 
@@ -2152,7 +2766,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2031](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2031)
+[src/types/generatedGraphQLTypes.ts:2651](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2651)
 
 ___
 
@@ -2172,7 +2786,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:482](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L482)
+[src/types/generatedGraphQLTypes.ts:818](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L818)
 
 ___
 
@@ -2190,7 +2804,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:490](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L490)
+[src/types/generatedGraphQLTypes.ts:826](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L826)
 
 ___
 
@@ -2211,7 +2825,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:496](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L496)
+[src/types/generatedGraphQLTypes.ts:832](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L832)
 
 ___
 
@@ -2239,7 +2853,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2611](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2611)
+[src/types/generatedGraphQLTypes.ts:3357](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3357)
 
 ___
 
@@ -2266,7 +2880,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2603](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2603)
+[src/types/generatedGraphQLTypes.ts:3349](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3349)
 
 ___
 
@@ -2283,7 +2897,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:505](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L505)
+[src/types/generatedGraphQLTypes.ts:841](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L841)
 
 ___
 
@@ -2300,7 +2914,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:30](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L30)
+[src/types/generatedGraphQLTypes.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L36)
 
 ___
 
@@ -2317,7 +2931,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L29)
+[src/types/generatedGraphQLTypes.ts:35](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L35)
 
 ___
 
@@ -2334,7 +2948,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:28](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L28)
+[src/types/generatedGraphQLTypes.ts:34](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L34)
 
 ___
 
@@ -2344,7 +2958,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:510](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L510)
+[src/types/generatedGraphQLTypes.ts:846](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L846)
 
 ___
 
@@ -2354,7 +2968,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:518](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L518)
+[src/types/generatedGraphQLTypes.ts:854](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L854)
 
 ___
 
@@ -2379,7 +2993,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2628](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2628)
+[src/types/generatedGraphQLTypes.ts:3374](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3374)
 
 ___
 
@@ -2389,7 +3003,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:524](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L524)
+[src/types/generatedGraphQLTypes.ts:860](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L860)
 
 ___
 
@@ -2415,7 +3029,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2634](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2634)
+[src/types/generatedGraphQLTypes.ts:3380](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3380)
 
 ___
 
@@ -2431,7 +3045,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L25)
+[src/types/generatedGraphQLTypes.ts:31](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L31)
 
 ___
 
@@ -2450,7 +3064,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:531](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L531)
+[src/types/generatedGraphQLTypes.ts:867](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L867)
 
 ___
 
@@ -2476,7 +3090,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2641](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2641)
+[src/types/generatedGraphQLTypes.ts:3387](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3387)
 
 ___
 
@@ -2499,7 +3113,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:538](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L538)
+[src/types/generatedGraphQLTypes.ts:874](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L874)
 
 ___
 
@@ -2522,7 +3136,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:549](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L549)
+[src/types/generatedGraphQLTypes.ts:885](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L885)
 
 ___
 
@@ -2539,7 +3153,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:560](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L560)
+[src/types/generatedGraphQLTypes.ts:896](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L896)
 
 ___
 
@@ -2569,7 +3183,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2659](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2659)
+[src/types/generatedGraphQLTypes.ts:3405](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3405)
 
 ___
 
@@ -2599,7 +3213,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2648](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2648)
+[src/types/generatedGraphQLTypes.ts:3394](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3394)
 
 ___
 
@@ -2609,7 +3223,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:565](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L565)
+[src/types/generatedGraphQLTypes.ts:901](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L901)
 
 ___
 
@@ -2635,7 +3249,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2670](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2670)
+[src/types/generatedGraphQLTypes.ts:3416](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3416)
 
 ___
 
@@ -2645,7 +3259,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:572](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L572)
+[src/types/generatedGraphQLTypes.ts:908](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L908)
 
 ___
 
@@ -2670,7 +3284,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2677](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2677)
+[src/types/generatedGraphQLTypes.ts:3423](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3423)
 
 ___
 
@@ -2690,9 +3304,11 @@ ___
 | `addLanguageTranslation` | [`Language`](types_generatedGraphQLTypes.md#language) |
 | `addOrganizationCustomField` | [`OrganizationCustomField`](types_generatedGraphQLTypes.md#organizationcustomfield) |
 | `addOrganizationImage` | [`Organization`](types_generatedGraphQLTypes.md#organization) |
+| `addPledgeToFundraisingCampaign` | [`FundraisingCampaignPledge`](types_generatedGraphQLTypes.md#fundraisingcampaignpledge) |
 | `addUserCustomData` | [`UserCustomData`](types_generatedGraphQLTypes.md#usercustomdata) |
 | `addUserImage` | [`User`](types_generatedGraphQLTypes.md#user) |
 | `addUserToGroupChat` | [`GroupChat`](types_generatedGraphQLTypes.md#groupchat) |
+| `addUserToUserFamily` | [`UserFamily`](types_generatedGraphQLTypes.md#userfamily) |
 | `adminRemoveEvent` | [`Event`](types_generatedGraphQLTypes.md#event) |
 | `adminRemoveGroup` | [`GroupChat`](types_generatedGraphQLTypes.md#groupchat) |
 | `assignUserTag?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\> |
@@ -2700,14 +3316,21 @@ ___
 | `blockUser` | [`User`](types_generatedGraphQLTypes.md#user) |
 | `cancelMembershipRequest` | [`MembershipRequest`](types_generatedGraphQLTypes.md#membershiprequest) |
 | `checkIn` | [`CheckIn`](types_generatedGraphQLTypes.md#checkin) |
+| `checkInEventAttendee` | [`EventAttendee`](types_generatedGraphQLTypes.md#eventattendee) |
+| `checkOutEventAttendee` | [`EventAttendee`](types_generatedGraphQLTypes.md#eventattendee) |
 | `createActionItem` | [`ActionItem`](types_generatedGraphQLTypes.md#actionitem) |
 | `createActionItemCategory` | [`ActionItemCategory`](types_generatedGraphQLTypes.md#actionitemcategory) |
 | `createAdmin` | [`User`](types_generatedGraphQLTypes.md#user) |
 | `createAdvertisement` | [`Advertisement`](types_generatedGraphQLTypes.md#advertisement) |
+| `createAgendaCategory` | [`AgendaCategory`](types_generatedGraphQLTypes.md#agendacategory) |
 | `createComment?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Comment`](types_generatedGraphQLTypes.md#comment)\> |
 | `createDirectChat` | [`DirectChat`](types_generatedGraphQLTypes.md#directchat) |
 | `createDonation` | [`Donation`](types_generatedGraphQLTypes.md#donation) |
 | `createEvent` | [`Event`](types_generatedGraphQLTypes.md#event) |
+| `createEventVolunteer` | [`EventVolunteer`](types_generatedGraphQLTypes.md#eventvolunteer) |
+| `createFund` | [`Fund`](types_generatedGraphQLTypes.md#fund) |
+| `createFundraisingCampaign` | [`FundraisingCampaign`](types_generatedGraphQLTypes.md#fundraisingcampaign) |
+| `createFundraisingCampaignPledge` | [`FundraisingCampaignPledge`](types_generatedGraphQLTypes.md#fundraisingcampaignpledge) |
 | `createGroupChat` | [`GroupChat`](types_generatedGraphQLTypes.md#groupchat) |
 | `createMember` | [`Organization`](types_generatedGraphQLTypes.md#organization) |
 | `createMessageChat` | [`MessageChat`](types_generatedGraphQLTypes.md#messagechat) |
@@ -2715,10 +3338,13 @@ ___
 | `createPlugin` | [`Plugin`](types_generatedGraphQLTypes.md#plugin) |
 | `createPost?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Post`](types_generatedGraphQLTypes.md#post)\> |
 | `createSampleOrganization` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
+| `createUserFamily` | [`UserFamily`](types_generatedGraphQLTypes.md#userfamily) |
 | `createUserTag?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UserTag`](types_generatedGraphQLTypes.md#usertag)\> |
 | `deleteAdvertisementById` | [`DeletePayload`](types_generatedGraphQLTypes.md#deletepayload) |
+| `deleteAgendaCategory` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
 | `deleteDonationById` | [`DeletePayload`](types_generatedGraphQLTypes.md#deletepayload) |
 | `forgotPassword` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
+| `inviteEventAttendee` | [`EventAttendee`](types_generatedGraphQLTypes.md#eventattendee) |
 | `joinPublicOrganization` | [`User`](types_generatedGraphQLTypes.md#user) |
 | `leaveOrganization` | [`User`](types_generatedGraphQLTypes.md#user) |
 | `likeComment?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Comment`](types_generatedGraphQLTypes.md#comment)\> |
@@ -2728,7 +3354,8 @@ ___
 | `otp` | [`OtpData`](types_generatedGraphQLTypes.md#otpdata) |
 | `recaptcha` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
 | `refreshToken` | [`ExtendSession`](types_generatedGraphQLTypes.md#extendsession) |
-| `registerForEvent` | [`Event`](types_generatedGraphQLTypes.md#event) |
+| `registerEventAttendee` | [`EventAttendee`](types_generatedGraphQLTypes.md#eventattendee) |
+| `registerForEvent` | [`EventAttendee`](types_generatedGraphQLTypes.md#eventattendee) |
 | `rejectAdmin` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
 | `rejectMembershipRequest` | [`MembershipRequest`](types_generatedGraphQLTypes.md#membershiprequest) |
 | `removeActionItem` | [`ActionItem`](types_generatedGraphQLTypes.md#actionitem) |
@@ -2738,6 +3365,10 @@ ___
 | `removeDirectChat` | [`DirectChat`](types_generatedGraphQLTypes.md#directchat) |
 | `removeEvent` | [`Event`](types_generatedGraphQLTypes.md#event) |
 | `removeEventAttendee` | [`User`](types_generatedGraphQLTypes.md#user) |
+| `removeEventVolunteer` | [`EventVolunteer`](types_generatedGraphQLTypes.md#eventvolunteer) |
+| `removeFund` | [`Fund`](types_generatedGraphQLTypes.md#fund) |
+| `removeFundraisingCampaign` | [`FundraisingCampaign`](types_generatedGraphQLTypes.md#fundraisingcampaign) |
+| `removeFundraisingCampaignPledge` | [`FundraisingCampaignPledge`](types_generatedGraphQLTypes.md#fundraisingcampaignpledge) |
 | `removeGroupChat` | [`GroupChat`](types_generatedGraphQLTypes.md#groupchat) |
 | `removeMember` | [`Organization`](types_generatedGraphQLTypes.md#organization) |
 | `removeOrganization` | [`User`](types_generatedGraphQLTypes.md#user) |
@@ -2746,7 +3377,9 @@ ___
 | `removePost?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Post`](types_generatedGraphQLTypes.md#post)\> |
 | `removeSampleOrganization` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
 | `removeUserCustomData` | [`UserCustomData`](types_generatedGraphQLTypes.md#usercustomdata) |
+| `removeUserFamily` | [`UserFamily`](types_generatedGraphQLTypes.md#userfamily) |
 | `removeUserFromGroupChat` | [`GroupChat`](types_generatedGraphQLTypes.md#groupchat) |
+| `removeUserFromUserFamily` | [`UserFamily`](types_generatedGraphQLTypes.md#userfamily) |
 | `removeUserImage` | [`User`](types_generatedGraphQLTypes.md#user) |
 | `removeUserTag?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UserTag`](types_generatedGraphQLTypes.md#usertag)\> |
 | `revokeRefreshTokenForUser` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
@@ -2764,7 +3397,12 @@ ___
 | `updateActionItem?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ActionItem`](types_generatedGraphQLTypes.md#actionitem)\> |
 | `updateActionItemCategory?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ActionItemCategory`](types_generatedGraphQLTypes.md#actionitemcategory)\> |
 | `updateAdvertisement?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UpdateAdvertisementPayload`](types_generatedGraphQLTypes.md#updateadvertisementpayload)\> |
+| `updateAgendaCategory?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`AgendaCategory`](types_generatedGraphQLTypes.md#agendacategory)\> |
 | `updateEvent` | [`Event`](types_generatedGraphQLTypes.md#event) |
+| `updateEventVolunteer` | [`EventVolunteer`](types_generatedGraphQLTypes.md#eventvolunteer) |
+| `updateFund` | [`Fund`](types_generatedGraphQLTypes.md#fund) |
+| `updateFundraisingCampaign` | [`FundraisingCampaign`](types_generatedGraphQLTypes.md#fundraisingcampaign) |
+| `updateFundraisingCampaignPledge` | [`FundraisingCampaignPledge`](types_generatedGraphQLTypes.md#fundraisingcampaignpledge) |
 | `updateLanguage` | [`User`](types_generatedGraphQLTypes.md#user) |
 | `updateOrganization` | [`Organization`](types_generatedGraphQLTypes.md#organization) |
 | `updatePluginStatus` | [`Plugin`](types_generatedGraphQLTypes.md#plugin) |
@@ -2777,7 +3415,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:578](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L578)
+[src/types/generatedGraphQLTypes.ts:914](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L914)
 
 ___
 
@@ -2793,7 +3431,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:674](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L674)
+[src/types/generatedGraphQLTypes.ts:1034](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1034)
 
 ___
 
@@ -2809,7 +3447,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:679](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L679)
+[src/types/generatedGraphQLTypes.ts:1039](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1039)
 
 ___
 
@@ -2825,7 +3463,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:684](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L684)
+[src/types/generatedGraphQLTypes.ts:1044](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1044)
 
 ___
 
@@ -2841,7 +3479,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:689](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L689)
+[src/types/generatedGraphQLTypes.ts:1049](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1049)
 
 ___
 
@@ -2857,7 +3495,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:694](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L694)
+[src/types/generatedGraphQLTypes.ts:1054](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1054)
 
 ___
 
@@ -2875,7 +3513,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:699](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L699)
+[src/types/generatedGraphQLTypes.ts:1059](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1059)
 
 ___
 
@@ -2892,7 +3530,24 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:706](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L706)
+[src/types/generatedGraphQLTypes.ts:1066](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1066)
+
+___
+
+### MutationAddPledgeToFundraisingCampaignArgs
+
+Ƭ **MutationAddPledgeToFundraisingCampaignArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `campaignId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `pledgeId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1072](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1072)
 
 ___
 
@@ -2910,7 +3565,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:712](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L712)
+[src/types/generatedGraphQLTypes.ts:1078](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1078)
 
 ___
 
@@ -2926,7 +3581,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:719](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L719)
+[src/types/generatedGraphQLTypes.ts:1085](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1085)
 
 ___
 
@@ -2943,7 +3598,24 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:724](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L724)
+[src/types/generatedGraphQLTypes.ts:1090](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1090)
+
+___
+
+### MutationAddUserToUserFamilyArgs
+
+Ƭ **MutationAddUserToUserFamilyArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `familyId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1096](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1096)
 
 ___
 
@@ -2959,7 +3631,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:730](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L730)
+[src/types/generatedGraphQLTypes.ts:1102](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1102)
 
 ___
 
@@ -2975,7 +3647,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:735](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L735)
+[src/types/generatedGraphQLTypes.ts:1107](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1107)
 
 ___
 
@@ -2991,7 +3663,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:740](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L740)
+[src/types/generatedGraphQLTypes.ts:1112](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1112)
 
 ___
 
@@ -3008,7 +3680,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:745](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L745)
+[src/types/generatedGraphQLTypes.ts:1117](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1117)
 
 ___
 
@@ -3025,7 +3697,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:751](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L751)
+[src/types/generatedGraphQLTypes.ts:1123](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1123)
 
 ___
 
@@ -3041,7 +3713,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:757](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L757)
+[src/types/generatedGraphQLTypes.ts:1129](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1129)
 
 ___
 
@@ -3057,7 +3729,39 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:762](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L762)
+[src/types/generatedGraphQLTypes.ts:1134](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1134)
+
+___
+
+### MutationCheckInEventAttendeeArgs
+
+Ƭ **MutationCheckInEventAttendeeArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `data` | [`EventAttendeeInput`](types_generatedGraphQLTypes.md#eventattendeeinput) |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1139](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1139)
+
+___
+
+### MutationCheckOutEventAttendeeArgs
+
+Ƭ **MutationCheckOutEventAttendeeArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `data` | [`EventAttendeeInput`](types_generatedGraphQLTypes.md#eventattendeeinput) |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1144](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1144)
 
 ___
 
@@ -3074,7 +3778,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:767](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L767)
+[src/types/generatedGraphQLTypes.ts:1149](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1149)
 
 ___
 
@@ -3091,7 +3795,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:773](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L773)
+[src/types/generatedGraphQLTypes.ts:1155](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1155)
 
 ___
 
@@ -3107,7 +3811,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:779](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L779)
+[src/types/generatedGraphQLTypes.ts:1161](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1161)
 
 ___
 
@@ -3128,7 +3832,23 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:784](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L784)
+[src/types/generatedGraphQLTypes.ts:1166](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1166)
+
+___
+
+### MutationCreateAgendaCategoryArgs
+
+Ƭ **MutationCreateAgendaCategoryArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `input` | [`CreateAgendaCategoryInput`](types_generatedGraphQLTypes.md#createagendacategoryinput) |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1176](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1176)
 
 ___
 
@@ -3145,7 +3865,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:794](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L794)
+[src/types/generatedGraphQLTypes.ts:1181](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1181)
 
 ___
 
@@ -3161,7 +3881,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:800](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L800)
+[src/types/generatedGraphQLTypes.ts:1187](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1187)
 
 ___
 
@@ -3182,7 +3902,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:805](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L805)
+[src/types/generatedGraphQLTypes.ts:1192](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1192)
 
 ___
 
@@ -3194,11 +3914,76 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`EventInput`](types_generatedGraphQLTypes.md#eventinput)\> |
+| `data` | [`EventInput`](types_generatedGraphQLTypes.md#eventinput) |
+| `recurrenceRuleData?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`RecurrenceRuleInput`](types_generatedGraphQLTypes.md#recurrenceruleinput)\> |
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:815](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L815)
+[src/types/generatedGraphQLTypes.ts:1202](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1202)
+
+___
+
+### MutationCreateEventVolunteerArgs
+
+Ƭ **MutationCreateEventVolunteerArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `data` | [`EventVolunteerInput`](types_generatedGraphQLTypes.md#eventvolunteerinput) |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1208](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1208)
+
+___
+
+### MutationCreateFundArgs
+
+Ƭ **MutationCreateFundArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `data` | [`FundInput`](types_generatedGraphQLTypes.md#fundinput) |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1213](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1213)
+
+___
+
+### MutationCreateFundraisingCampaignArgs
+
+Ƭ **MutationCreateFundraisingCampaignArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `data` | [`FundCampaignInput`](types_generatedGraphQLTypes.md#fundcampaigninput) |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1218](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1218)
+
+___
+
+### MutationCreateFundraisingCampaignPledgeArgs
+
+Ƭ **MutationCreateFundraisingCampaignPledgeArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `data` | [`FundCampaignPledgeInput`](types_generatedGraphQLTypes.md#fundcampaignpledgeinput) |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1223](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1223)
 
 ___
 
@@ -3214,7 +3999,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:820](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L820)
+[src/types/generatedGraphQLTypes.ts:1228](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1228)
 
 ___
 
@@ -3230,7 +4015,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:825](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L825)
+[src/types/generatedGraphQLTypes.ts:1233](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1233)
 
 ___
 
@@ -3246,7 +4031,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:830](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L830)
+[src/types/generatedGraphQLTypes.ts:1238](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1238)
 
 ___
 
@@ -3263,7 +4048,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:835](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L835)
+[src/types/generatedGraphQLTypes.ts:1243](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1243)
 
 ___
 
@@ -3282,7 +4067,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:841](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L841)
+[src/types/generatedGraphQLTypes.ts:1249](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1249)
 
 ___
 
@@ -3299,7 +4084,23 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:849](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L849)
+[src/types/generatedGraphQLTypes.ts:1257](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1257)
+
+___
+
+### MutationCreateUserFamilyArgs
+
+Ƭ **MutationCreateUserFamilyArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `data` | [`CreateUserFamilyInput`](types_generatedGraphQLTypes.md#createuserfamilyinput) |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1263](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1263)
 
 ___
 
@@ -3315,7 +4116,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:855](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L855)
+[src/types/generatedGraphQLTypes.ts:1268](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1268)
 
 ___
 
@@ -3331,7 +4132,23 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:860](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L860)
+[src/types/generatedGraphQLTypes.ts:1273](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1273)
+
+___
+
+### MutationDeleteAgendaCategoryArgs
+
+Ƭ **MutationDeleteAgendaCategoryArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1278](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1278)
 
 ___
 
@@ -3347,7 +4164,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:865](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L865)
+[src/types/generatedGraphQLTypes.ts:1283](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1283)
 
 ___
 
@@ -3363,7 +4180,23 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:870](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L870)
+[src/types/generatedGraphQLTypes.ts:1288](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1288)
+
+___
+
+### MutationInviteEventAttendeeArgs
+
+Ƭ **MutationInviteEventAttendeeArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `data` | [`EventAttendeeInput`](types_generatedGraphQLTypes.md#eventattendeeinput) |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1293](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1293)
 
 ___
 
@@ -3379,7 +4212,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:875](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L875)
+[src/types/generatedGraphQLTypes.ts:1298](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1298)
 
 ___
 
@@ -3395,7 +4228,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:880](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L880)
+[src/types/generatedGraphQLTypes.ts:1303](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1303)
 
 ___
 
@@ -3411,7 +4244,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:885](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L885)
+[src/types/generatedGraphQLTypes.ts:1308](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1308)
 
 ___
 
@@ -3427,7 +4260,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:890](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L890)
+[src/types/generatedGraphQLTypes.ts:1313](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1313)
 
 ___
 
@@ -3443,7 +4276,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:895](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L895)
+[src/types/generatedGraphQLTypes.ts:1318](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1318)
 
 ___
 
@@ -3459,7 +4292,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:900](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L900)
+[src/types/generatedGraphQLTypes.ts:1323](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1323)
 
 ___
 
@@ -3475,7 +4308,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:905](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L905)
+[src/types/generatedGraphQLTypes.ts:1328](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1328)
 
 ___
 
@@ -3491,7 +4324,23 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:910](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L910)
+[src/types/generatedGraphQLTypes.ts:1333](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1333)
+
+___
+
+### MutationRegisterEventAttendeeArgs
+
+Ƭ **MutationRegisterEventAttendeeArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `data` | [`EventAttendeeInput`](types_generatedGraphQLTypes.md#eventattendeeinput) |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1338](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1338)
 
 ___
 
@@ -3507,7 +4356,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:915](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L915)
+[src/types/generatedGraphQLTypes.ts:1343](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1343)
 
 ___
 
@@ -3523,7 +4372,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:920](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L920)
+[src/types/generatedGraphQLTypes.ts:1348](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1348)
 
 ___
 
@@ -3539,7 +4388,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:925](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L925)
+[src/types/generatedGraphQLTypes.ts:1353](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1353)
 
 ___
 
@@ -3555,7 +4404,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:930](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L930)
+[src/types/generatedGraphQLTypes.ts:1358](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1358)
 
 ___
 
@@ -3571,7 +4420,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:935](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L935)
+[src/types/generatedGraphQLTypes.ts:1363](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1363)
 
 ___
 
@@ -3587,7 +4436,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:940](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L940)
+[src/types/generatedGraphQLTypes.ts:1368](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1368)
 
 ___
 
@@ -3603,7 +4452,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:945](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L945)
+[src/types/generatedGraphQLTypes.ts:1373](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1373)
 
 ___
 
@@ -3620,7 +4469,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:950](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L950)
+[src/types/generatedGraphQLTypes.ts:1378](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1378)
 
 ___
 
@@ -3636,7 +4485,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:956](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L956)
+[src/types/generatedGraphQLTypes.ts:1384](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1384)
 
 ___
 
@@ -3652,7 +4501,71 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:961](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L961)
+[src/types/generatedGraphQLTypes.ts:1389](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1389)
+
+___
+
+### MutationRemoveEventVolunteerArgs
+
+Ƭ **MutationRemoveEventVolunteerArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1394](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1394)
+
+___
+
+### MutationRemoveFundArgs
+
+Ƭ **MutationRemoveFundArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1399](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1399)
+
+___
+
+### MutationRemoveFundraisingCampaignArgs
+
+Ƭ **MutationRemoveFundraisingCampaignArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1404](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1404)
+
+___
+
+### MutationRemoveFundraisingCampaignPledgeArgs
+
+Ƭ **MutationRemoveFundraisingCampaignPledgeArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1409](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1409)
 
 ___
 
@@ -3668,7 +4581,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:966](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L966)
+[src/types/generatedGraphQLTypes.ts:1414](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1414)
 
 ___
 
@@ -3684,7 +4597,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:971](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L971)
+[src/types/generatedGraphQLTypes.ts:1419](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1419)
 
 ___
 
@@ -3700,7 +4613,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:976](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L976)
+[src/types/generatedGraphQLTypes.ts:1424](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1424)
 
 ___
 
@@ -3717,7 +4630,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:981](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L981)
+[src/types/generatedGraphQLTypes.ts:1429](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1429)
 
 ___
 
@@ -3733,7 +4646,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:987](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L987)
+[src/types/generatedGraphQLTypes.ts:1435](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1435)
 
 ___
 
@@ -3749,7 +4662,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:992](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L992)
+[src/types/generatedGraphQLTypes.ts:1440](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1440)
 
 ___
 
@@ -3765,7 +4678,23 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:997](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L997)
+[src/types/generatedGraphQLTypes.ts:1445](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1445)
+
+___
+
+### MutationRemoveUserFamilyArgs
+
+Ƭ **MutationRemoveUserFamilyArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `familyId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1450](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1450)
 
 ___
 
@@ -3782,7 +4711,24 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1002](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1002)
+[src/types/generatedGraphQLTypes.ts:1455](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1455)
+
+___
+
+### MutationRemoveUserFromUserFamilyArgs
+
+Ƭ **MutationRemoveUserFromUserFamilyArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `familyId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1461](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1461)
 
 ___
 
@@ -3798,7 +4744,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1008](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1008)
+[src/types/generatedGraphQLTypes.ts:1467](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1467)
 
 ___
 
@@ -3824,9 +4770,11 @@ ___
 | `addLanguageTranslation?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Language"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAddLanguageTranslationArgs`](types_generatedGraphQLTypes.md#mutationaddlanguagetranslationargs), ``"data"``\>\> |
 | `addOrganizationCustomField?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"OrganizationCustomField"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAddOrganizationCustomFieldArgs`](types_generatedGraphQLTypes.md#mutationaddorganizationcustomfieldargs), ``"name"`` \| ``"organizationId"`` \| ``"type"``\>\> |
 | `addOrganizationImage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAddOrganizationImageArgs`](types_generatedGraphQLTypes.md#mutationaddorganizationimageargs), ``"file"`` \| ``"organizationId"``\>\> |
+| `addPledgeToFundraisingCampaign?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"FundraisingCampaignPledge"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAddPledgeToFundraisingCampaignArgs`](types_generatedGraphQLTypes.md#mutationaddpledgetofundraisingcampaignargs), ``"campaignId"`` \| ``"pledgeId"``\>\> |
 | `addUserCustomData?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserCustomData"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAddUserCustomDataArgs`](types_generatedGraphQLTypes.md#mutationaddusercustomdataargs), ``"dataName"`` \| ``"dataValue"`` \| ``"organizationId"``\>\> |
 | `addUserImage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAddUserImageArgs`](types_generatedGraphQLTypes.md#mutationadduserimageargs), ``"file"``\>\> |
 | `addUserToGroupChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChat"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAddUserToGroupChatArgs`](types_generatedGraphQLTypes.md#mutationaddusertogroupchatargs), ``"chatId"`` \| ``"userId"``\>\> |
+| `addUserToUserFamily?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserFamily"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAddUserToUserFamilyArgs`](types_generatedGraphQLTypes.md#mutationaddusertouserfamilyargs), ``"familyId"`` \| ``"userId"``\>\> |
 | `adminRemoveEvent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAdminRemoveEventArgs`](types_generatedGraphQLTypes.md#mutationadminremoveeventargs), ``"eventId"``\>\> |
 | `adminRemoveGroup?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChat"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAdminRemoveGroupArgs`](types_generatedGraphQLTypes.md#mutationadminremovegroupargs), ``"groupId"``\>\> |
 | `assignUserTag?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAssignUserTagArgs`](types_generatedGraphQLTypes.md#mutationassignusertagargs), ``"input"``\>\> |
@@ -3834,14 +4782,21 @@ ___
 | `blockUser?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationBlockUserArgs`](types_generatedGraphQLTypes.md#mutationblockuserargs), ``"organizationId"`` \| ``"userId"``\>\> |
 | `cancelMembershipRequest?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"MembershipRequest"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCancelMembershipRequestArgs`](types_generatedGraphQLTypes.md#mutationcancelmembershiprequestargs), ``"membershipRequestId"``\>\> |
 | `checkIn?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"CheckIn"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCheckInArgs`](types_generatedGraphQLTypes.md#mutationcheckinargs), ``"data"``\>\> |
+| `checkInEventAttendee?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"EventAttendee"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCheckInEventAttendeeArgs`](types_generatedGraphQLTypes.md#mutationcheckineventattendeeargs), ``"data"``\>\> |
+| `checkOutEventAttendee?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"EventAttendee"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCheckOutEventAttendeeArgs`](types_generatedGraphQLTypes.md#mutationcheckouteventattendeeargs), ``"data"``\>\> |
 | `createActionItem?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ActionItem"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateActionItemArgs`](types_generatedGraphQLTypes.md#mutationcreateactionitemargs), ``"actionItemCategoryId"`` \| ``"data"``\>\> |
 | `createActionItemCategory?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ActionItemCategory"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateActionItemCategoryArgs`](types_generatedGraphQLTypes.md#mutationcreateactionitemcategoryargs), ``"name"`` \| ``"organizationId"``\>\> |
 | `createAdmin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateAdminArgs`](types_generatedGraphQLTypes.md#mutationcreateadminargs), ``"data"``\>\> |
 | `createAdvertisement?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Advertisement"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateAdvertisementArgs`](types_generatedGraphQLTypes.md#mutationcreateadvertisementargs), ``"endDate"`` \| ``"link"`` \| ``"name"`` \| ``"orgId"`` \| ``"startDate"`` \| ``"type"``\>\> |
+| `createAgendaCategory?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"AgendaCategory"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateAgendaCategoryArgs`](types_generatedGraphQLTypes.md#mutationcreateagendacategoryargs), ``"input"``\>\> |
 | `createComment?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Comment"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateCommentArgs`](types_generatedGraphQLTypes.md#mutationcreatecommentargs), ``"data"`` \| ``"postId"``\>\> |
 | `createDirectChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChat"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateDirectChatArgs`](types_generatedGraphQLTypes.md#mutationcreatedirectchatargs), ``"data"``\>\> |
 | `createDonation?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Donation"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateDonationArgs`](types_generatedGraphQLTypes.md#mutationcreatedonationargs), ``"amount"`` \| ``"nameOfOrg"`` \| ``"nameOfUser"`` \| ``"orgId"`` \| ``"payPalId"`` \| ``"userId"``\>\> |
-| `createEvent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`, `Partial`\<[`MutationCreateEventArgs`](types_generatedGraphQLTypes.md#mutationcreateeventargs)\>\> |
+| `createEvent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateEventArgs`](types_generatedGraphQLTypes.md#mutationcreateeventargs), ``"data"``\>\> |
+| `createEventVolunteer?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"EventVolunteer"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateEventVolunteerArgs`](types_generatedGraphQLTypes.md#mutationcreateeventvolunteerargs), ``"data"``\>\> |
+| `createFund?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Fund"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateFundArgs`](types_generatedGraphQLTypes.md#mutationcreatefundargs), ``"data"``\>\> |
+| `createFundraisingCampaign?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"FundraisingCampaign"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateFundraisingCampaignArgs`](types_generatedGraphQLTypes.md#mutationcreatefundraisingcampaignargs), ``"data"``\>\> |
+| `createFundraisingCampaignPledge?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"FundraisingCampaignPledge"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateFundraisingCampaignPledgeArgs`](types_generatedGraphQLTypes.md#mutationcreatefundraisingcampaignpledgeargs), ``"data"``\>\> |
 | `createGroupChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChat"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateGroupChatArgs`](types_generatedGraphQLTypes.md#mutationcreategroupchatargs), ``"data"``\>\> |
 | `createMember?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateMemberArgs`](types_generatedGraphQLTypes.md#mutationcreatememberargs), ``"input"``\>\> |
 | `createMessageChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"MessageChat"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateMessageChatArgs`](types_generatedGraphQLTypes.md#mutationcreatemessagechatargs), ``"data"``\>\> |
@@ -3849,10 +4804,13 @@ ___
 | `createPlugin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Plugin"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreatePluginArgs`](types_generatedGraphQLTypes.md#mutationcreatepluginargs), ``"pluginCreatedBy"`` \| ``"pluginDesc"`` \| ``"pluginName"``\>\> |
 | `createPost?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreatePostArgs`](types_generatedGraphQLTypes.md#mutationcreatepostargs), ``"data"``\>\> |
 | `createSampleOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
+| `createUserFamily?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserFamily"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateUserFamilyArgs`](types_generatedGraphQLTypes.md#mutationcreateuserfamilyargs), ``"data"``\>\> |
 | `createUserTag?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTag"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateUserTagArgs`](types_generatedGraphQLTypes.md#mutationcreateusertagargs), ``"input"``\>\> |
 | `deleteAdvertisementById?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DeletePayload"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationDeleteAdvertisementByIdArgs`](types_generatedGraphQLTypes.md#mutationdeleteadvertisementbyidargs), ``"id"``\>\> |
+| `deleteAgendaCategory?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationDeleteAgendaCategoryArgs`](types_generatedGraphQLTypes.md#mutationdeleteagendacategoryargs), ``"id"``\>\> |
 | `deleteDonationById?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DeletePayload"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationDeleteDonationByIdArgs`](types_generatedGraphQLTypes.md#mutationdeletedonationbyidargs), ``"id"``\>\> |
 | `forgotPassword?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationForgotPasswordArgs`](types_generatedGraphQLTypes.md#mutationforgotpasswordargs), ``"data"``\>\> |
+| `inviteEventAttendee?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"EventAttendee"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationInviteEventAttendeeArgs`](types_generatedGraphQLTypes.md#mutationinviteeventattendeeargs), ``"data"``\>\> |
 | `joinPublicOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationJoinPublicOrganizationArgs`](types_generatedGraphQLTypes.md#mutationjoinpublicorganizationargs), ``"organizationId"``\>\> |
 | `leaveOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationLeaveOrganizationArgs`](types_generatedGraphQLTypes.md#mutationleaveorganizationargs), ``"organizationId"``\>\> |
 | `likeComment?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Comment"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationLikeCommentArgs`](types_generatedGraphQLTypes.md#mutationlikecommentargs), ``"id"``\>\> |
@@ -3862,7 +4820,8 @@ ___
 | `otp?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"OtpData"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationOtpArgs`](types_generatedGraphQLTypes.md#mutationotpargs), ``"data"``\>\> |
 | `recaptcha?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRecaptchaArgs`](types_generatedGraphQLTypes.md#mutationrecaptchaargs), ``"data"``\>\> |
 | `refreshToken?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ExtendSession"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRefreshTokenArgs`](types_generatedGraphQLTypes.md#mutationrefreshtokenargs), ``"refreshToken"``\>\> |
-| `registerForEvent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRegisterForEventArgs`](types_generatedGraphQLTypes.md#mutationregisterforeventargs), ``"id"``\>\> |
+| `registerEventAttendee?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"EventAttendee"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRegisterEventAttendeeArgs`](types_generatedGraphQLTypes.md#mutationregistereventattendeeargs), ``"data"``\>\> |
+| `registerForEvent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"EventAttendee"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRegisterForEventArgs`](types_generatedGraphQLTypes.md#mutationregisterforeventargs), ``"id"``\>\> |
 | `rejectAdmin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRejectAdminArgs`](types_generatedGraphQLTypes.md#mutationrejectadminargs), ``"id"``\>\> |
 | `rejectMembershipRequest?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"MembershipRequest"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRejectMembershipRequestArgs`](types_generatedGraphQLTypes.md#mutationrejectmembershiprequestargs), ``"membershipRequestId"``\>\> |
 | `removeActionItem?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ActionItem"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveActionItemArgs`](types_generatedGraphQLTypes.md#mutationremoveactionitemargs), ``"id"``\>\> |
@@ -3872,6 +4831,10 @@ ___
 | `removeDirectChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChat"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveDirectChatArgs`](types_generatedGraphQLTypes.md#mutationremovedirectchatargs), ``"chatId"`` \| ``"organizationId"``\>\> |
 | `removeEvent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveEventArgs`](types_generatedGraphQLTypes.md#mutationremoveeventargs), ``"id"``\>\> |
 | `removeEventAttendee?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveEventAttendeeArgs`](types_generatedGraphQLTypes.md#mutationremoveeventattendeeargs), ``"data"``\>\> |
+| `removeEventVolunteer?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"EventVolunteer"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveEventVolunteerArgs`](types_generatedGraphQLTypes.md#mutationremoveeventvolunteerargs), ``"id"``\>\> |
+| `removeFund?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Fund"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveFundArgs`](types_generatedGraphQLTypes.md#mutationremovefundargs), ``"id"``\>\> |
+| `removeFundraisingCampaign?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"FundraisingCampaign"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveFundraisingCampaignArgs`](types_generatedGraphQLTypes.md#mutationremovefundraisingcampaignargs), ``"id"``\>\> |
+| `removeFundraisingCampaignPledge?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"FundraisingCampaignPledge"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveFundraisingCampaignPledgeArgs`](types_generatedGraphQLTypes.md#mutationremovefundraisingcampaignpledgeargs), ``"id"``\>\> |
 | `removeGroupChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChat"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveGroupChatArgs`](types_generatedGraphQLTypes.md#mutationremovegroupchatargs), ``"chatId"``\>\> |
 | `removeMember?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveMemberArgs`](types_generatedGraphQLTypes.md#mutationremovememberargs), ``"data"``\>\> |
 | `removeOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveOrganizationArgs`](types_generatedGraphQLTypes.md#mutationremoveorganizationargs), ``"id"``\>\> |
@@ -3880,7 +4843,9 @@ ___
 | `removePost?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemovePostArgs`](types_generatedGraphQLTypes.md#mutationremovepostargs), ``"id"``\>\> |
 | `removeSampleOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
 | `removeUserCustomData?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserCustomData"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveUserCustomDataArgs`](types_generatedGraphQLTypes.md#mutationremoveusercustomdataargs), ``"organizationId"``\>\> |
+| `removeUserFamily?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserFamily"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveUserFamilyArgs`](types_generatedGraphQLTypes.md#mutationremoveuserfamilyargs), ``"familyId"``\>\> |
 | `removeUserFromGroupChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChat"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveUserFromGroupChatArgs`](types_generatedGraphQLTypes.md#mutationremoveuserfromgroupchatargs), ``"chatId"`` \| ``"userId"``\>\> |
+| `removeUserFromUserFamily?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserFamily"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveUserFromUserFamilyArgs`](types_generatedGraphQLTypes.md#mutationremoveuserfromuserfamilyargs), ``"familyId"`` \| ``"userId"``\>\> |
 | `removeUserImage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
 | `removeUserTag?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTag"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveUserTagArgs`](types_generatedGraphQLTypes.md#mutationremoveusertagargs), ``"id"``\>\> |
 | `revokeRefreshTokenForUser?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
@@ -3898,7 +4863,12 @@ ___
 | `updateActionItem?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ActionItem"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdateActionItemArgs`](types_generatedGraphQLTypes.md#mutationupdateactionitemargs), ``"data"`` \| ``"id"``\>\> |
 | `updateActionItemCategory?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ActionItemCategory"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdateActionItemCategoryArgs`](types_generatedGraphQLTypes.md#mutationupdateactionitemcategoryargs), ``"data"`` \| ``"id"``\>\> |
 | `updateAdvertisement?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UpdateAdvertisementPayload"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdateAdvertisementArgs`](types_generatedGraphQLTypes.md#mutationupdateadvertisementargs), ``"input"``\>\> |
+| `updateAgendaCategory?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"AgendaCategory"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdateAgendaCategoryArgs`](types_generatedGraphQLTypes.md#mutationupdateagendacategoryargs), ``"id"`` \| ``"input"``\>\> |
 | `updateEvent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdateEventArgs`](types_generatedGraphQLTypes.md#mutationupdateeventargs), ``"id"``\>\> |
+| `updateEventVolunteer?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"EventVolunteer"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdateEventVolunteerArgs`](types_generatedGraphQLTypes.md#mutationupdateeventvolunteerargs), ``"id"``\>\> |
+| `updateFund?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Fund"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdateFundArgs`](types_generatedGraphQLTypes.md#mutationupdatefundargs), ``"data"`` \| ``"id"``\>\> |
+| `updateFundraisingCampaign?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"FundraisingCampaign"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdateFundraisingCampaignArgs`](types_generatedGraphQLTypes.md#mutationupdatefundraisingcampaignargs), ``"data"`` \| ``"id"``\>\> |
+| `updateFundraisingCampaignPledge?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"FundraisingCampaignPledge"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdateFundraisingCampaignPledgeArgs`](types_generatedGraphQLTypes.md#mutationupdatefundraisingcampaignpledgeargs), ``"data"`` \| ``"id"``\>\> |
 | `updateLanguage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdateLanguageArgs`](types_generatedGraphQLTypes.md#mutationupdatelanguageargs), ``"languageCode"``\>\> |
 | `updateOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdateOrganizationArgs`](types_generatedGraphQLTypes.md#mutationupdateorganizationargs), ``"id"``\>\> |
 | `updatePluginStatus?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Plugin"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdatePluginStatusArgs`](types_generatedGraphQLTypes.md#mutationupdatepluginstatusargs), ``"id"`` \| ``"orgId"``\>\> |
@@ -3911,7 +4881,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2683](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2683)
+[src/types/generatedGraphQLTypes.ts:3429](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3429)
 
 ___
 
@@ -3927,7 +4897,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1013](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1013)
+[src/types/generatedGraphQLTypes.ts:1472](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1472)
 
 ___
 
@@ -3943,7 +4913,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1018](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1018)
+[src/types/generatedGraphQLTypes.ts:1477](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1477)
 
 ___
 
@@ -3960,7 +4930,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1023](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1023)
+[src/types/generatedGraphQLTypes.ts:1482](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1482)
 
 ___
 
@@ -3977,7 +4947,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1029](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1029)
+[src/types/generatedGraphQLTypes.ts:1488](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1488)
 
 ___
 
@@ -3994,7 +4964,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1035](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1035)
+[src/types/generatedGraphQLTypes.ts:1494](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1494)
 
 ___
 
@@ -4011,7 +4981,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1041](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1041)
+[src/types/generatedGraphQLTypes.ts:1500](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1500)
 
 ___
 
@@ -4027,7 +4997,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1047](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1047)
+[src/types/generatedGraphQLTypes.ts:1506](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1506)
 
 ___
 
@@ -4044,7 +5014,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1052](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1052)
+[src/types/generatedGraphQLTypes.ts:1511](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1511)
 
 ___
 
@@ -4060,7 +5030,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1058](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1058)
+[src/types/generatedGraphQLTypes.ts:1517](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1517)
 
 ___
 
@@ -4076,7 +5046,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1063](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1063)
+[src/types/generatedGraphQLTypes.ts:1522](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1522)
 
 ___
 
@@ -4092,7 +5062,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1068](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1068)
+[src/types/generatedGraphQLTypes.ts:1527](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1527)
 
 ___
 
@@ -4109,7 +5079,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1073](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1073)
+[src/types/generatedGraphQLTypes.ts:1532](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1532)
 
 ___
 
@@ -4126,7 +5096,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1079](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1079)
+[src/types/generatedGraphQLTypes.ts:1538](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1538)
 
 ___
 
@@ -4142,7 +5112,24 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1085](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1085)
+[src/types/generatedGraphQLTypes.ts:1544](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1544)
+
+___
+
+### MutationUpdateAgendaCategoryArgs
+
+Ƭ **MutationUpdateAgendaCategoryArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `input` | [`UpdateAgendaCategoryInput`](types_generatedGraphQLTypes.md#updateagendacategoryinput) |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1549](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1549)
 
 ___
 
@@ -4156,10 +5143,80 @@ ___
 | :------ | :------ |
 | `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`UpdateEventInput`](types_generatedGraphQLTypes.md#updateeventinput)\> |
 | `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `recurrenceRuleData?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`RecurrenceRuleInput`](types_generatedGraphQLTypes.md#recurrenceruleinput)\> |
+| `recurringEventUpdateType?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`RecurringEventUpdateType`](types_generatedGraphQLTypes.md#recurringeventupdatetype)\> |
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1090](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1090)
+[src/types/generatedGraphQLTypes.ts:1555](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1555)
+
+___
+
+### MutationUpdateEventVolunteerArgs
+
+Ƭ **MutationUpdateEventVolunteerArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`UpdateEventVolunteerInput`](types_generatedGraphQLTypes.md#updateeventvolunteerinput)\> |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1563](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1563)
+
+___
+
+### MutationUpdateFundArgs
+
+Ƭ **MutationUpdateFundArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `data` | [`UpdateFundInput`](types_generatedGraphQLTypes.md#updatefundinput) |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1569](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1569)
+
+___
+
+### MutationUpdateFundraisingCampaignArgs
+
+Ƭ **MutationUpdateFundraisingCampaignArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `data` | [`UpdateFundCampaignInput`](types_generatedGraphQLTypes.md#updatefundcampaigninput) |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1575](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1575)
+
+___
+
+### MutationUpdateFundraisingCampaignPledgeArgs
+
+Ƭ **MutationUpdateFundraisingCampaignPledgeArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `data` | [`UpdateFundCampaignPledgeInput`](types_generatedGraphQLTypes.md#updatefundcampaignpledgeinput) |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1581](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1581)
 
 ___
 
@@ -4175,7 +5232,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1096](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1096)
+[src/types/generatedGraphQLTypes.ts:1587](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1587)
 
 ___
 
@@ -4193,7 +5250,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1101](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1101)
+[src/types/generatedGraphQLTypes.ts:1592](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1592)
 
 ___
 
@@ -4210,7 +5267,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1108](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1108)
+[src/types/generatedGraphQLTypes.ts:1599](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1599)
 
 ___
 
@@ -4227,7 +5284,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1114](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1114)
+[src/types/generatedGraphQLTypes.ts:1605](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1605)
 
 ___
 
@@ -4243,7 +5300,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1120](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1120)
+[src/types/generatedGraphQLTypes.ts:1611](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1611)
 
 ___
 
@@ -4260,7 +5317,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1125](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1125)
+[src/types/generatedGraphQLTypes.ts:1616](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1616)
 
 ___
 
@@ -4278,7 +5335,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1131](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1131)
+[src/types/generatedGraphQLTypes.ts:1622](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1622)
 
 ___
 
@@ -4294,7 +5351,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1138](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1138)
+[src/types/generatedGraphQLTypes.ts:1629](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1629)
 
 ___
 
@@ -4310,7 +5367,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1143](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1143)
+[src/types/generatedGraphQLTypes.ts:1634](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1634)
 
 ___
 
@@ -4334,7 +5391,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2033](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2033)
+[src/types/generatedGraphQLTypes.ts:2653](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2653)
 
 ___
 
@@ -4351,7 +5408,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:32](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L32)
+[src/types/generatedGraphQLTypes.ts:38](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L38)
 
 ___
 
@@ -4368,6 +5425,7 @@ ___
 | `actionItemCategories?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ActionItemCategory`](types_generatedGraphQLTypes.md#actionitemcategory)\>[]\> |
 | `address?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Address`](types_generatedGraphQLTypes.md#address)\> |
 | `admins?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)[]\> |
+| `agendaCategories?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`AgendaCategory`](types_generatedGraphQLTypes.md#agendacategory)\>[]\> |
 | `apiUrl` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``][``"output"``] |
 | `blockedUsers?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\>[]\> |
 | `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
@@ -4386,7 +5444,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1151](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1151)
+[src/types/generatedGraphQLTypes.ts:1642](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1642)
 
 ___
 
@@ -4402,7 +5460,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1175](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1175)
+[src/types/generatedGraphQLTypes.ts:1667](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1667)
 
 ___
 
@@ -4422,7 +5480,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1187](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1187)
+[src/types/generatedGraphQLTypes.ts:1679](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1679)
 
 ___
 
@@ -4449,7 +5507,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2800](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2800)
+[src/types/generatedGraphQLTypes.ts:3571](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3571)
 
 ___
 
@@ -4473,7 +5531,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1195](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1195)
+[src/types/generatedGraphQLTypes.ts:1687](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1687)
 
 ___
 
@@ -4504,7 +5562,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2808](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2808)
+[src/types/generatedGraphQLTypes.ts:3579](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3579)
 
 ___
 
@@ -4527,7 +5585,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1207](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1207)
+[src/types/generatedGraphQLTypes.ts:1699](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1699)
 
 ___
 
@@ -4537,7 +5595,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1218](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1218)
+[src/types/generatedGraphQLTypes.ts:1710](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1710)
 
 ___
 
@@ -4561,6 +5619,7 @@ ___
 | `actionItemCategories?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ActionItemCategory"``]\>[]\>, `ParentType`, `ContextType`\> |
 | `address?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Address"``]\>, `ParentType`, `ContextType`\> |
 | `admins?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``][]\>, `ParentType`, `ContextType`, `Partial`\<[`OrganizationAdminsArgs`](types_generatedGraphQLTypes.md#organizationadminsargs)\>\> |
+| `agendaCategories?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"AgendaCategory"``]\>[]\>, `ParentType`, `ContextType`\> |
 | `apiUrl?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"URL"``], `ParentType`, `ContextType`\> |
 | `blockedUsers?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]\>, `ParentType`, `ContextType`\> |
 | `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
@@ -4579,7 +5638,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2777](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2777)
+[src/types/generatedGraphQLTypes.ts:3547](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3547)
 
 ___
 
@@ -4598,7 +5657,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1180](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1180)
+[src/types/generatedGraphQLTypes.ts:1672](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1672)
 
 ___
 
@@ -4639,7 +5698,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1230](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1230)
+[src/types/generatedGraphQLTypes.ts:1722](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1722)
 
 ___
 
@@ -4656,7 +5715,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1259](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1259)
+[src/types/generatedGraphQLTypes.ts:1751](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1751)
 
 ___
 
@@ -4680,7 +5739,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2820](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2820)
+[src/types/generatedGraphQLTypes.ts:3591](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3591)
 
 ___
 
@@ -4696,7 +5755,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1147](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1147)
+[src/types/generatedGraphQLTypes.ts:1638](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1638)
 
 ___
 
@@ -4720,7 +5779,7 @@ Information about pagination in a connection.
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1265](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1265)
+[src/types/generatedGraphQLTypes.ts:1757](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1757)
 
 ___
 
@@ -4749,7 +5808,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2825](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2825)
+[src/types/generatedGraphQLTypes.ts:3596](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3596)
 
 ___
 
@@ -4759,7 +5818,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1277](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1277)
+[src/types/generatedGraphQLTypes.ts:1769](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1769)
 
 ___
 
@@ -4780,7 +5839,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1281](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1281)
+[src/types/generatedGraphQLTypes.ts:1773](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1773)
 
 ___
 
@@ -4800,7 +5859,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1290](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1290)
+[src/types/generatedGraphQLTypes.ts:1782](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1782)
 
 ___
 
@@ -4817,7 +5876,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1298](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1298)
+[src/types/generatedGraphQLTypes.ts:1790](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1790)
 
 ___
 
@@ -4844,7 +5903,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2848](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2848)
+[src/types/generatedGraphQLTypes.ts:3619](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3619)
 
 ___
 
@@ -4864,7 +5923,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1303](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1303)
+[src/types/generatedGraphQLTypes.ts:1795](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1795)
 
 ___
 
@@ -4892,7 +5951,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2839](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2839)
+[src/types/generatedGraphQLTypes.ts:3610](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3610)
 
 ___
 
@@ -4922,7 +5981,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1311](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1311)
+[src/types/generatedGraphQLTypes.ts:1803](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1803)
 
 ___
 
@@ -4943,7 +6002,7 @@ A connection to a list of items.
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1330](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1330)
+[src/types/generatedGraphQLTypes.ts:1822](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1822)
 
 ___
 
@@ -4969,7 +6028,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2878](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2878)
+[src/types/generatedGraphQLTypes.ts:3649](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3649)
 
 ___
 
@@ -4991,7 +6050,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1339](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1339)
+[src/types/generatedGraphQLTypes.ts:1831](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1831)
 
 ___
 
@@ -5001,7 +6060,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1349](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1349)
+[src/types/generatedGraphQLTypes.ts:1841](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1841)
 
 ___
 
@@ -5038,7 +6097,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2860](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2860)
+[src/types/generatedGraphQLTypes.ts:3631](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3631)
 
 ___
 
@@ -5057,7 +6116,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1367](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1367)
+[src/types/generatedGraphQLTypes.ts:1859](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1859)
 
 ___
 
@@ -5090,7 +6149,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1374](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1374)
+[src/types/generatedGraphQLTypes.ts:1866](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1866)
 
 ___
 
@@ -5109,18 +6168,25 @@ ___
 | `actionItemsByEvent?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ActionItem`](types_generatedGraphQLTypes.md#actionitem)\>[]\> |
 | `actionItemsByOrganization?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ActionItem`](types_generatedGraphQLTypes.md#actionitem)\>[]\> |
 | `adminPlugin?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Plugin`](types_generatedGraphQLTypes.md#plugin)\>[]\> |
+| `agendaCategory` | [`AgendaCategory`](types_generatedGraphQLTypes.md#agendacategory) |
 | `checkAuth` | [`User`](types_generatedGraphQLTypes.md#user) |
 | `customDataByOrganization` | [`UserCustomData`](types_generatedGraphQLTypes.md#usercustomdata)[] |
 | `customFieldsByOrganization?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`OrganizationCustomField`](types_generatedGraphQLTypes.md#organizationcustomfield)\>[]\> |
 | `directChatsByUserID?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`DirectChat`](types_generatedGraphQLTypes.md#directchat)\>[]\> |
 | `directChatsMessagesByChatID?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`DirectChatMessage`](types_generatedGraphQLTypes.md#directchatmessage)\>[]\> |
 | `event?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Event`](types_generatedGraphQLTypes.md#event)\> |
+| `eventVolunteersByEvent?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`EventVolunteer`](types_generatedGraphQLTypes.md#eventvolunteer)\>[]\> |
 | `eventsByOrganization?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Event`](types_generatedGraphQLTypes.md#event)\>[]\> |
 | `eventsByOrganizationConnection` | [`Event`](types_generatedGraphQLTypes.md#event)[] |
 | `getAdvertisements?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Advertisement`](types_generatedGraphQLTypes.md#advertisement)\>[]\> |
 | `getDonationById` | [`Donation`](types_generatedGraphQLTypes.md#donation) |
 | `getDonationByOrgId?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Donation`](types_generatedGraphQLTypes.md#donation)\>[]\> |
 | `getDonationByOrgIdConnection` | [`Donation`](types_generatedGraphQLTypes.md#donation)[] |
+| `getEventAttendee?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`EventAttendee`](types_generatedGraphQLTypes.md#eventattendee)\> |
+| `getEventAttendeesByEventId?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`EventAttendee`](types_generatedGraphQLTypes.md#eventattendee)\>[]\> |
+| `getFundById` | [`Fund`](types_generatedGraphQLTypes.md#fund) |
+| `getFundraisingCampaignById` | [`FundraisingCampaign`](types_generatedGraphQLTypes.md#fundraisingcampaign) |
+| `getFundraisingCampaignPledgeById` | [`FundraisingCampaignPledge`](types_generatedGraphQLTypes.md#fundraisingcampaignpledge) |
 | `getPlugins?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Plugin`](types_generatedGraphQLTypes.md#plugin)\>[]\> |
 | `getlanguage?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Translation`](types_generatedGraphQLTypes.md#translation)\>[]\> |
 | `hasSubmittedFeedback?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``]\> |
@@ -5144,7 +6210,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1395](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1395)
+[src/types/generatedGraphQLTypes.ts:1887](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1887)
 
 ___
 
@@ -5160,7 +6226,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1438](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1438)
+[src/types/generatedGraphQLTypes.ts:1937](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1937)
 
 ___
 
@@ -5176,7 +6242,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1443](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1443)
+[src/types/generatedGraphQLTypes.ts:1942](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1942)
 
 ___
 
@@ -5192,7 +6258,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1448](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1448)
+[src/types/generatedGraphQLTypes.ts:1947](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1947)
 
 ___
 
@@ -5208,7 +6274,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1453](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1453)
+[src/types/generatedGraphQLTypes.ts:1952](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1952)
 
 ___
 
@@ -5220,11 +6286,13 @@ ___
 
 | Name | Type |
 | :------ | :------ |
+| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`ActionItemsOrderByInput`](types_generatedGraphQLTypes.md#actionitemsorderbyinput)\> |
 | `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `where?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`ActionItemWhereInput`](types_generatedGraphQLTypes.md#actionitemwhereinput)\> |
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1458](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1458)
+[src/types/generatedGraphQLTypes.ts:1957](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1957)
 
 ___
 
@@ -5240,7 +6308,23 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1463](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1463)
+[src/types/generatedGraphQLTypes.ts:1964](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1964)
+
+___
+
+### QueryAgendaCategoryArgs
+
+Ƭ **QueryAgendaCategoryArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1969](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1969)
 
 ___
 
@@ -5256,7 +6340,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1468](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1468)
+[src/types/generatedGraphQLTypes.ts:1974](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1974)
 
 ___
 
@@ -5272,7 +6356,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1473](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1473)
+[src/types/generatedGraphQLTypes.ts:1979](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1979)
 
 ___
 
@@ -5288,7 +6372,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1478](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1478)
+[src/types/generatedGraphQLTypes.ts:1984](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1984)
 
 ___
 
@@ -5304,7 +6388,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1483](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1483)
+[src/types/generatedGraphQLTypes.ts:1989](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1989)
 
 ___
 
@@ -5320,7 +6404,23 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1488](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1488)
+[src/types/generatedGraphQLTypes.ts:1994](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1994)
+
+___
+
+### QueryEventVolunteersByEventArgs
+
+Ƭ **QueryEventVolunteersByEventArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1999](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L1999)
 
 ___
 
@@ -5337,7 +6437,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1493](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1493)
+[src/types/generatedGraphQLTypes.ts:2004](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2004)
 
 ___
 
@@ -5356,7 +6456,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1499](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1499)
+[src/types/generatedGraphQLTypes.ts:2010](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2010)
 
 ___
 
@@ -5372,7 +6472,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1507](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1507)
+[src/types/generatedGraphQLTypes.ts:2018](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2018)
 
 ___
 
@@ -5388,7 +6488,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1512](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1512)
+[src/types/generatedGraphQLTypes.ts:2023](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2023)
 
 ___
 
@@ -5407,7 +6507,88 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1517](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1517)
+[src/types/generatedGraphQLTypes.ts:2028](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2028)
+
+___
+
+### QueryGetEventAttendeeArgs
+
+Ƭ **QueryGetEventAttendeeArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `eventId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2036](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2036)
+
+___
+
+### QueryGetEventAttendeesByEventIdArgs
+
+Ƭ **QueryGetEventAttendeesByEventIdArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `eventId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2042](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2042)
+
+___
+
+### QueryGetFundByIdArgs
+
+Ƭ **QueryGetFundByIdArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2047](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2047)
+
+___
+
+### QueryGetFundraisingCampaignByIdArgs
+
+Ƭ **QueryGetFundraisingCampaignByIdArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2052](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2052)
+
+___
+
+### QueryGetFundraisingCampaignPledgeByIdArgs
+
+Ƭ **QueryGetFundraisingCampaignPledgeByIdArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2057](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2057)
 
 ___
 
@@ -5423,7 +6604,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1525](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1525)
+[src/types/generatedGraphQLTypes.ts:2062](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2062)
 
 ___
 
@@ -5440,7 +6621,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1530](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1530)
+[src/types/generatedGraphQLTypes.ts:2067](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2067)
 
 ___
 
@@ -5456,7 +6637,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1536](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1536)
+[src/types/generatedGraphQLTypes.ts:2073](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2073)
 
 ___
 
@@ -5472,7 +6653,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1541](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1541)
+[src/types/generatedGraphQLTypes.ts:2078](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2078)
 
 ___
 
@@ -5489,7 +6670,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1546](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1546)
+[src/types/generatedGraphQLTypes.ts:2083](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2083)
 
 ___
 
@@ -5508,7 +6689,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1552](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1552)
+[src/types/generatedGraphQLTypes.ts:2089](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2089)
 
 ___
 
@@ -5528,7 +6709,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1560](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1560)
+[src/types/generatedGraphQLTypes.ts:2097](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2097)
 
 ___
 
@@ -5544,7 +6725,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1569](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1569)
+[src/types/generatedGraphQLTypes.ts:2106](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2106)
 
 ___
 
@@ -5560,7 +6741,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1574](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1574)
+[src/types/generatedGraphQLTypes.ts:2111](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2111)
 
 ___
 
@@ -5577,7 +6758,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1579](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1579)
+[src/types/generatedGraphQLTypes.ts:2116](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2116)
 
 ___
 
@@ -5597,7 +6778,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1585](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1585)
+[src/types/generatedGraphQLTypes.ts:2122](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2122)
 
 ___
 
@@ -5614,7 +6795,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1594](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1594)
+[src/types/generatedGraphQLTypes.ts:2131](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2131)
 
 ___
 
@@ -5630,7 +6811,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1600](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1600)
+[src/types/generatedGraphQLTypes.ts:2137](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2137)
 
 ___
 
@@ -5655,18 +6836,25 @@ ___
 | `actionItemsByEvent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ActionItem"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryActionItemsByEventArgs`](types_generatedGraphQLTypes.md#queryactionitemsbyeventargs), ``"eventId"``\>\> |
 | `actionItemsByOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ActionItem"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryActionItemsByOrganizationArgs`](types_generatedGraphQLTypes.md#queryactionitemsbyorganizationargs), ``"organizationId"``\>\> |
 | `adminPlugin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Plugin"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryAdminPluginArgs`](types_generatedGraphQLTypes.md#queryadminpluginargs), ``"orgId"``\>\> |
+| `agendaCategory?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"AgendaCategory"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryAgendaCategoryArgs`](types_generatedGraphQLTypes.md#queryagendacategoryargs), ``"id"``\>\> |
 | `checkAuth?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
 | `customDataByOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserCustomData"``][], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryCustomDataByOrganizationArgs`](types_generatedGraphQLTypes.md#querycustomdatabyorganizationargs), ``"organizationId"``\>\> |
 | `customFieldsByOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"OrganizationCustomField"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryCustomFieldsByOrganizationArgs`](types_generatedGraphQLTypes.md#querycustomfieldsbyorganizationargs), ``"id"``\>\> |
 | `directChatsByUserID?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChat"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryDirectChatsByUserIdArgs`](types_generatedGraphQLTypes.md#querydirectchatsbyuseridargs), ``"id"``\>\> |
 | `directChatsMessagesByChatID?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChatMessage"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryDirectChatsMessagesByChatIdArgs`](types_generatedGraphQLTypes.md#querydirectchatsmessagesbychatidargs), ``"id"``\>\> |
 | `event?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryEventArgs`](types_generatedGraphQLTypes.md#queryeventargs), ``"id"``\>\> |
+| `eventVolunteersByEvent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"EventVolunteer"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryEventVolunteersByEventArgs`](types_generatedGraphQLTypes.md#queryeventvolunteersbyeventargs), ``"id"``\>\> |
 | `eventsByOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``]\>[]\>, `ParentType`, `ContextType`, `Partial`\<[`QueryEventsByOrganizationArgs`](types_generatedGraphQLTypes.md#queryeventsbyorganizationargs)\>\> |
 | `eventsByOrganizationConnection?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``][], `ParentType`, `ContextType`, `Partial`\<[`QueryEventsByOrganizationConnectionArgs`](types_generatedGraphQLTypes.md#queryeventsbyorganizationconnectionargs)\>\> |
 | `getAdvertisements?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Advertisement"``]\>[]\>, `ParentType`, `ContextType`\> |
 | `getDonationById?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Donation"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryGetDonationByIdArgs`](types_generatedGraphQLTypes.md#querygetdonationbyidargs), ``"id"``\>\> |
 | `getDonationByOrgId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Donation"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryGetDonationByOrgIdArgs`](types_generatedGraphQLTypes.md#querygetdonationbyorgidargs), ``"orgId"``\>\> |
 | `getDonationByOrgIdConnection?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Donation"``][], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryGetDonationByOrgIdConnectionArgs`](types_generatedGraphQLTypes.md#querygetdonationbyorgidconnectionargs), ``"orgId"``\>\> |
+| `getEventAttendee?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"EventAttendee"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryGetEventAttendeeArgs`](types_generatedGraphQLTypes.md#querygeteventattendeeargs), ``"eventId"`` \| ``"userId"``\>\> |
+| `getEventAttendeesByEventId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"EventAttendee"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryGetEventAttendeesByEventIdArgs`](types_generatedGraphQLTypes.md#querygeteventattendeesbyeventidargs), ``"eventId"``\>\> |
+| `getFundById?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Fund"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryGetFundByIdArgs`](types_generatedGraphQLTypes.md#querygetfundbyidargs), ``"id"``\>\> |
+| `getFundraisingCampaignById?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"FundraisingCampaign"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryGetFundraisingCampaignByIdArgs`](types_generatedGraphQLTypes.md#querygetfundraisingcampaignbyidargs), ``"id"``\>\> |
+| `getFundraisingCampaignPledgeById?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"FundraisingCampaignPledge"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryGetFundraisingCampaignPledgeByIdArgs`](types_generatedGraphQLTypes.md#querygetfundraisingcampaignpledgebyidargs), ``"id"``\>\> |
 | `getPlugins?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Plugin"``]\>[]\>, `ParentType`, `ContextType`\> |
 | `getlanguage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Translation"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryGetlanguageArgs`](types_generatedGraphQLTypes.md#querygetlanguageargs), ``"lang_code"``\>\> |
 | `hasSubmittedFeedback?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryHasSubmittedFeedbackArgs`](types_generatedGraphQLTypes.md#queryhassubmittedfeedbackargs), ``"eventId"`` \| ``"userId"``\>\> |
@@ -5690,7 +6878,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2885](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2885)
+[src/types/generatedGraphQLTypes.ts:3656](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3656)
 
 ___
 
@@ -5706,7 +6894,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1605](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1605)
+[src/types/generatedGraphQLTypes.ts:2142](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2142)
 
 ___
 
@@ -5722,7 +6910,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1610](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1610)
+[src/types/generatedGraphQLTypes.ts:2147](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2147)
 
 ___
 
@@ -5743,7 +6931,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1615](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1615)
+[src/types/generatedGraphQLTypes.ts:2152](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2152)
 
 ___
 
@@ -5762,7 +6950,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1625](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1625)
+[src/types/generatedGraphQLTypes.ts:2162](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2162)
 
 ___
 
@@ -5778,7 +6966,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1632](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1632)
+[src/types/generatedGraphQLTypes.ts:2169](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2169)
 
 ___
 
@@ -5788,7 +6976,35 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1636](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1636)
+[src/types/generatedGraphQLTypes.ts:2173](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2173)
+
+___
+
+### RecurrenceRuleInput
+
+Ƭ **RecurrenceRuleInput**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `count?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"input"``]\> |
+| `frequency?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Frequency`](types_generatedGraphQLTypes.md#frequency)\> |
+| `weekDays?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`WeekDays`](types_generatedGraphQLTypes.md#weekdays)\>[]\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2180](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2180)
+
+___
+
+### RecurringEventUpdateType
+
+Ƭ **RecurringEventUpdateType**: ``"AllInstances"`` \| ``"ThisAndFollowingInstances"`` \| ``"ThisInstance"``
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2186](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2186)
 
 ___
 
@@ -5805,7 +7021,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:33](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L33)
+[src/types/generatedGraphQLTypes.ts:39](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L39)
 
 ___
 
@@ -5824,7 +7040,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1984](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1984)
+[src/types/generatedGraphQLTypes.ts:2604](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2604)
 
 ___
 
@@ -5860,7 +7076,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1986](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1986)
+[src/types/generatedGraphQLTypes.ts:2606](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2606)
 
 ___
 
@@ -5876,7 +7092,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1982](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1982)
+[src/types/generatedGraphQLTypes.ts:2602](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2602)
 
 ___
 
@@ -5898,6 +7114,7 @@ ___
 | `ActionItemCategory?` | [`ActionItemCategoryResolvers`](types_generatedGraphQLTypes.md#actionitemcategoryresolvers)\<`ContextType`\> |
 | `Address?` | [`AddressResolvers`](types_generatedGraphQLTypes.md#addressresolvers)\<`ContextType`\> |
 | `Advertisement?` | [`AdvertisementResolvers`](types_generatedGraphQLTypes.md#advertisementresolvers)\<`ContextType`\> |
+| `AgendaCategory?` | [`AgendaCategoryResolvers`](types_generatedGraphQLTypes.md#agendacategoryresolvers)\<`ContextType`\> |
 | `AggregatePost?` | [`AggregatePostResolvers`](types_generatedGraphQLTypes.md#aggregatepostresolvers)\<`ContextType`\> |
 | `AggregateUser?` | [`AggregateUserResolvers`](types_generatedGraphQLTypes.md#aggregateuserresolvers)\<`ContextType`\> |
 | `Any?` | `GraphQLScalarType` |
@@ -5910,6 +7127,7 @@ ___
 | `CountryCode?` | `GraphQLScalarType` |
 | `Date?` | `GraphQLScalarType` |
 | `DateTime?` | `GraphQLScalarType` |
+| `DefaultConnectionPageInfo?` | [`DefaultConnectionPageInfoResolvers`](types_generatedGraphQLTypes.md#defaultconnectionpageinforesolvers)\<`ContextType`\> |
 | `DeletePayload?` | [`DeletePayloadResolvers`](types_generatedGraphQLTypes.md#deletepayloadresolvers)\<`ContextType`\> |
 | `DirectChat?` | [`DirectChatResolvers`](types_generatedGraphQLTypes.md#directchatresolvers)\<`ContextType`\> |
 | `DirectChatMessage?` | [`DirectChatMessageResolvers`](types_generatedGraphQLTypes.md#directchatmessageresolvers)\<`ContextType`\> |
@@ -5917,9 +7135,14 @@ ___
 | `EmailAddress?` | `GraphQLScalarType` |
 | `Error?` | [`ErrorResolvers`](types_generatedGraphQLTypes.md#errorresolvers)\<`ContextType`\> |
 | `Event?` | [`EventResolvers`](types_generatedGraphQLTypes.md#eventresolvers)\<`ContextType`\> |
+| `EventAttendee?` | [`EventAttendeeResolvers`](types_generatedGraphQLTypes.md#eventattendeeresolvers)\<`ContextType`\> |
+| `EventVolunteer?` | [`EventVolunteerResolvers`](types_generatedGraphQLTypes.md#eventvolunteerresolvers)\<`ContextType`\> |
 | `ExtendSession?` | [`ExtendSessionResolvers`](types_generatedGraphQLTypes.md#extendsessionresolvers)\<`ContextType`\> |
 | `Feedback?` | [`FeedbackResolvers`](types_generatedGraphQLTypes.md#feedbackresolvers)\<`ContextType`\> |
 | `FieldError?` | [`FieldErrorResolvers`](types_generatedGraphQLTypes.md#fielderrorresolvers)\<`ContextType`\> |
+| `Fund?` | [`FundResolvers`](types_generatedGraphQLTypes.md#fundresolvers)\<`ContextType`\> |
+| `FundraisingCampaign?` | [`FundraisingCampaignResolvers`](types_generatedGraphQLTypes.md#fundraisingcampaignresolvers)\<`ContextType`\> |
+| `FundraisingCampaignPledge?` | [`FundraisingCampaignPledgeResolvers`](types_generatedGraphQLTypes.md#fundraisingcampaignpledgeresolvers)\<`ContextType`\> |
 | `Group?` | [`GroupResolvers`](types_generatedGraphQLTypes.md#groupresolvers)\<`ContextType`\> |
 | `GroupChat?` | [`GroupChatResolvers`](types_generatedGraphQLTypes.md#groupchatresolvers)\<`ContextType`\> |
 | `GroupChatMessage?` | [`GroupChatMessageResolvers`](types_generatedGraphQLTypes.md#groupchatmessageresolvers)\<`ContextType`\> |
@@ -5960,18 +7183,17 @@ ___
 | `User?` | [`UserResolvers`](types_generatedGraphQLTypes.md#userresolvers)\<`ContextType`\> |
 | `UserConnection?` | [`UserConnectionResolvers`](types_generatedGraphQLTypes.md#userconnectionresolvers)\<`ContextType`\> |
 | `UserCustomData?` | [`UserCustomDataResolvers`](types_generatedGraphQLTypes.md#usercustomdataresolvers)\<`ContextType`\> |
-| `UserEdge?` | [`UserEdgeResolvers`](types_generatedGraphQLTypes.md#useredgeresolvers)\<`ContextType`\> |
+| `UserFamily?` | [`UserFamilyResolvers`](types_generatedGraphQLTypes.md#userfamilyresolvers)\<`ContextType`\> |
 | `UserPhone?` | [`UserPhoneResolvers`](types_generatedGraphQLTypes.md#userphoneresolvers)\<`ContextType`\> |
 | `UserTag?` | [`UserTagResolvers`](types_generatedGraphQLTypes.md#usertagresolvers)\<`ContextType`\> |
-| `UserTagEdge?` | [`UserTagEdgeResolvers`](types_generatedGraphQLTypes.md#usertagedgeresolvers)\<`ContextType`\> |
 | `UserTagsConnection?` | [`UserTagsConnectionResolvers`](types_generatedGraphQLTypes.md#usertagsconnectionresolvers)\<`ContextType`\> |
-| `UserTagsConnectionResult?` | [`UserTagsConnectionResultResolvers`](types_generatedGraphQLTypes.md#usertagsconnectionresultresolvers)\<`ContextType`\> |
+| `UserTagsConnectionEdge?` | [`UserTagsConnectionEdgeResolvers`](types_generatedGraphQLTypes.md#usertagsconnectionedgeresolvers)\<`ContextType`\> |
 | `UsersConnection?` | [`UsersConnectionResolvers`](types_generatedGraphQLTypes.md#usersconnectionresolvers)\<`ContextType`\> |
-| `UsersConnectionResult?` | [`UsersConnectionResultResolvers`](types_generatedGraphQLTypes.md#usersconnectionresultresolvers)\<`ContextType`\> |
+| `UsersConnectionEdge?` | [`UsersConnectionEdgeResolvers`](types_generatedGraphQLTypes.md#usersconnectionedgeresolvers)\<`ContextType`\> |
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:3068](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L3068)
+[src/types/generatedGraphQLTypes.ts:3843](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3843)
 
 ___
 
@@ -5991,12 +7213,13 @@ Mapping of interface types
 
 | Name | Type |
 | :------ | :------ |
+| `ConnectionPageInfo` | [`DefaultConnectionPageInfo`](types_generatedGraphQLTypes.md#defaultconnectionpageinfo) |
 | `Error` | [`UnauthenticatedError`](types_generatedGraphQLTypes.md#unauthenticatederror) \| [`UnauthorizedError`](types_generatedGraphQLTypes.md#unauthorizederror) |
 | `FieldError` | [`InvalidCursor`](types_generatedGraphQLTypes.md#invalidcursor) \| [`MaximumLengthError`](types_generatedGraphQLTypes.md#maximumlengtherror) \| [`MaximumValueError`](types_generatedGraphQLTypes.md#maximumvalueerror) \| [`MinimumLengthError`](types_generatedGraphQLTypes.md#minimumlengtherror) \| [`MinimumValueError`](types_generatedGraphQLTypes.md#minimumvalueerror) |
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2049](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2049)
+[src/types/generatedGraphQLTypes.ts:2669](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2669)
 
 ___
 
@@ -6012,9 +7235,11 @@ Mapping between all available schema types and the resolvers parents
 | :------ | :------ |
 | `ActionItem` | [`InterfaceActionItem`](../interfaces/models_ActionItem.InterfaceActionItem.md) |
 | `ActionItemCategory` | [`InterfaceActionItemCategory`](../interfaces/models_ActionItemCategory.InterfaceActionItemCategory.md) |
+| `ActionItemWhereInput` | [`ActionItemWhereInput`](types_generatedGraphQLTypes.md#actionitemwhereinput) |
 | `Address` | [`Address`](types_generatedGraphQLTypes.md#address) |
 | `AddressInput` | [`AddressInput`](types_generatedGraphQLTypes.md#addressinput) |
 | `Advertisement` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`Advertisement`](types_generatedGraphQLTypes.md#advertisement), ``"creator"``\> & \{ `creator?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"User"``]\>  \} |
+| `AgendaCategory` | [`InterfaceAgendaCategory`](../interfaces/models_AgendaCategory.InterfaceAgendaCategory.md) |
 | `AggregatePost` | [`AggregatePost`](types_generatedGraphQLTypes.md#aggregatepost) |
 | `AggregateUser` | [`AggregateUser`](types_generatedGraphQLTypes.md#aggregateuser) |
 | `Any` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Any"``][``"output"``] |
@@ -6026,13 +7251,15 @@ Mapping between all available schema types and the resolvers parents
 | `Comment` | [`InterfaceComment`](../interfaces/models_Comment.InterfaceComment.md) |
 | `CommentInput` | [`CommentInput`](types_generatedGraphQLTypes.md#commentinput) |
 | `ConnectionError` | [`ResolversUnionTypes`](types_generatedGraphQLTypes.md#resolversuniontypes)\<[`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)\>[``"ConnectionError"``] |
-| `ConnectionPageInfo` | [`ConnectionPageInfo`](types_generatedGraphQLTypes.md#connectionpageinfo) |
+| `ConnectionPageInfo` | [`ResolversInterfaceTypes`](types_generatedGraphQLTypes.md#resolversinterfacetypes)\<[`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)\>[``"ConnectionPageInfo"``] |
 | `CountryCode` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"CountryCode"``][``"output"``] |
 | `CreateActionItemInput` | [`CreateActionItemInput`](types_generatedGraphQLTypes.md#createactioniteminput) |
+| `CreateAgendaCategoryInput` | [`CreateAgendaCategoryInput`](types_generatedGraphQLTypes.md#createagendacategoryinput) |
 | `CreateUserTagInput` | [`CreateUserTagInput`](types_generatedGraphQLTypes.md#createusertaginput) |
 | `CursorPaginationInput` | [`CursorPaginationInput`](types_generatedGraphQLTypes.md#cursorpaginationinput) |
 | `Date` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"output"``] |
 | `DateTime` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+| `DefaultConnectionPageInfo` | [`DefaultConnectionPageInfo`](types_generatedGraphQLTypes.md#defaultconnectionpageinfo) |
 | `DeletePayload` | [`DeletePayload`](types_generatedGraphQLTypes.md#deletepayload) |
 | `DirectChat` | [`InterfaceDirectChat`](../interfaces/models_DirectChat.InterfaceDirectChat.md) |
 | `DirectChatMessage` | [`InterfaceDirectChatMessage`](../interfaces/models_DirectChatMessage.InterfaceDirectChatMessage.md) |
@@ -6041,8 +7268,11 @@ Mapping between all available schema types and the resolvers parents
 | `EmailAddress` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``][``"output"``] |
 | `Error` | [`ResolversInterfaceTypes`](types_generatedGraphQLTypes.md#resolversinterfacetypes)\<[`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)\>[``"Error"``] |
 | `Event` | [`InterfaceEvent`](../interfaces/models_Event.InterfaceEvent.md) |
+| `EventAttendee` | [`InterfaceEventAttendee`](../interfaces/models_EventAttendee.InterfaceEventAttendee.md) |
 | `EventAttendeeInput` | [`EventAttendeeInput`](types_generatedGraphQLTypes.md#eventattendeeinput) |
 | `EventInput` | [`EventInput`](types_generatedGraphQLTypes.md#eventinput) |
+| `EventVolunteer` | [`InterfaceEventVolunteer`](../interfaces/models_EventVolunteer.InterfaceEventVolunteer.md) |
+| `EventVolunteerInput` | [`EventVolunteerInput`](types_generatedGraphQLTypes.md#eventvolunteerinput) |
 | `EventWhereInput` | [`EventWhereInput`](types_generatedGraphQLTypes.md#eventwhereinput) |
 | `ExtendSession` | [`ExtendSession`](types_generatedGraphQLTypes.md#extendsession) |
 | `Feedback` | [`InterfaceFeedback`](../interfaces/models_Feedback.InterfaceFeedback.md) |
@@ -6050,6 +7280,12 @@ Mapping between all available schema types and the resolvers parents
 | `FieldError` | [`ResolversInterfaceTypes`](types_generatedGraphQLTypes.md#resolversinterfacetypes)\<[`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)\>[``"FieldError"``] |
 | `Float` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Float"``][``"output"``] |
 | `ForgotPasswordData` | [`ForgotPasswordData`](types_generatedGraphQLTypes.md#forgotpassworddata) |
+| `Fund` | [`InterfaceFund`](../interfaces/models_Fund.InterfaceFund.md) |
+| `FundCampaignInput` | [`FundCampaignInput`](types_generatedGraphQLTypes.md#fundcampaigninput) |
+| `FundCampaignPledgeInput` | [`FundCampaignPledgeInput`](types_generatedGraphQLTypes.md#fundcampaignpledgeinput) |
+| `FundInput` | [`FundInput`](types_generatedGraphQLTypes.md#fundinput) |
+| `FundraisingCampaign` | [`InterfaceFundraisingCampaign`](../interfaces/models_FundraisingCampaign.InterfaceFundraisingCampaign.md) |
+| `FundraisingCampaignPledge` | [`InterfaceFundraisingCampaignPledges`](../interfaces/models_FundraisingCampaignPledge.InterfaceFundraisingCampaignPledges.md) |
 | `Group` | [`InterfaceGroup`](../interfaces/models_Group.InterfaceGroup.md) |
 | `GroupChat` | [`InterfaceGroupChat`](../interfaces/models_GroupChat.InterfaceGroupChat.md) |
 | `GroupChatMessage` | [`InterfaceGroupChatMessage`](../interfaces/models_GroupChatMessage.InterfaceGroupChatMessage.md) |
@@ -6093,6 +7329,7 @@ Mapping between all available schema types and the resolvers parents
 | `PostWhereInput` | [`PostWhereInput`](types_generatedGraphQLTypes.md#postwhereinput) |
 | `Query` | \{\} |
 | `RecaptchaVerification` | [`RecaptchaVerification`](types_generatedGraphQLTypes.md#recaptchaverification) |
+| `RecurrenceRuleInput` | [`RecurrenceRuleInput`](types_generatedGraphQLTypes.md#recurrenceruleinput) |
 | `String` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
 | `Subscription` | \{\} |
 | `Time` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``][``"output"``] |
@@ -6105,7 +7342,12 @@ Mapping between all available schema types and the resolvers parents
 | `UpdateActionItemInput` | [`UpdateActionItemInput`](types_generatedGraphQLTypes.md#updateactioniteminput) |
 | `UpdateAdvertisementInput` | [`UpdateAdvertisementInput`](types_generatedGraphQLTypes.md#updateadvertisementinput) |
 | `UpdateAdvertisementPayload` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UpdateAdvertisementPayload`](types_generatedGraphQLTypes.md#updateadvertisementpayload), ``"advertisement"``\> & \{ `advertisement?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"Advertisement"``]\>  \} |
+| `UpdateAgendaCategoryInput` | [`UpdateAgendaCategoryInput`](types_generatedGraphQLTypes.md#updateagendacategoryinput) |
 | `UpdateEventInput` | [`UpdateEventInput`](types_generatedGraphQLTypes.md#updateeventinput) |
+| `UpdateEventVolunteerInput` | [`UpdateEventVolunteerInput`](types_generatedGraphQLTypes.md#updateeventvolunteerinput) |
+| `UpdateFundCampaignInput` | [`UpdateFundCampaignInput`](types_generatedGraphQLTypes.md#updatefundcampaigninput) |
+| `UpdateFundCampaignPledgeInput` | [`UpdateFundCampaignPledgeInput`](types_generatedGraphQLTypes.md#updatefundcampaignpledgeinput) |
+| `UpdateFundInput` | [`UpdateFundInput`](types_generatedGraphQLTypes.md#updatefundinput) |
 | `UpdateOrganizationInput` | [`UpdateOrganizationInput`](types_generatedGraphQLTypes.md#updateorganizationinput) |
 | `UpdateUserInput` | [`UpdateUserInput`](types_generatedGraphQLTypes.md#updateuserinput) |
 | `UpdateUserPasswordInput` | [`UpdateUserPasswordInput`](types_generatedGraphQLTypes.md#updateuserpasswordinput) |
@@ -6116,25 +7358,23 @@ Mapping between all available schema types and the resolvers parents
 | `UserAndOrganizationInput` | [`UserAndOrganizationInput`](types_generatedGraphQLTypes.md#userandorganizationinput) |
 | `UserConnection` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserConnection`](types_generatedGraphQLTypes.md#userconnection), ``"edges"``\> & \{ `edges`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"User"``]\>[]  \} |
 | `UserCustomData` | [`UserCustomData`](types_generatedGraphQLTypes.md#usercustomdata) |
-| `UserEdge` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserEdge`](types_generatedGraphQLTypes.md#useredge), ``"node"``\> & \{ `node`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"User"``]  \} |
+| `UserFamily` | [`InterfaceUserFamily`](../interfaces/models_userFamily.InterfaceUserFamily.md) |
 | `UserInput` | [`UserInput`](types_generatedGraphQLTypes.md#userinput) |
 | `UserPhone` | [`UserPhone`](types_generatedGraphQLTypes.md#userphone) |
 | `UserPhoneInput` | [`UserPhoneInput`](types_generatedGraphQLTypes.md#userphoneinput) |
 | `UserTag` | [`InterfaceOrganizationTagUser`](../interfaces/models_OrganizationTagUser.InterfaceOrganizationTagUser.md) |
-| `UserTagEdge` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserTagEdge`](types_generatedGraphQLTypes.md#usertagedge), ``"node"``\> & \{ `node`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserTag"``]  \} |
-| `UserTagsConnection` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserTagsConnection`](types_generatedGraphQLTypes.md#usertagsconnection), ``"edges"``\> & \{ `edges`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserTagEdge"``][]  \} |
-| `UserTagsConnectionInput` | [`UserTagsConnectionInput`](types_generatedGraphQLTypes.md#usertagsconnectioninput) |
-| `UserTagsConnectionResult` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserTagsConnectionResult`](types_generatedGraphQLTypes.md#usertagsconnectionresult), ``"data"`` \| ``"errors"``\> & \{ `data?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserTagsConnection"``]\> ; `errors`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"ConnectionError"``][]  \} |
+| `UserTagsConnection` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserTagsConnection`](types_generatedGraphQLTypes.md#usertagsconnection), ``"edges"``\> & \{ `edges`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserTagsConnectionEdge"``][]  \} |
+| `UserTagsConnectionEdge` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserTagsConnectionEdge`](types_generatedGraphQLTypes.md#usertagsconnectionedge), ``"node"``\> & \{ `node`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserTag"``]  \} |
 | `UserWhereInput` | [`UserWhereInput`](types_generatedGraphQLTypes.md#userwhereinput) |
-| `UsersConnection` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UsersConnection`](types_generatedGraphQLTypes.md#usersconnection), ``"edges"``\> & \{ `edges`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserEdge"``][]  \} |
-| `UsersConnectionInput` | [`UsersConnectionInput`](types_generatedGraphQLTypes.md#usersconnectioninput) |
-| `UsersConnectionResult` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UsersConnectionResult`](types_generatedGraphQLTypes.md#usersconnectionresult), ``"data"`` \| ``"errors"``\> & \{ `data?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UsersConnection"``]\> ; `errors`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"ConnectionError"``][]  \} |
+| `UsersConnection` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UsersConnection`](types_generatedGraphQLTypes.md#usersconnection), ``"edges"``\> & \{ `edges`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UsersConnectionEdge"``][]  \} |
+| `UsersConnectionEdge` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UsersConnectionEdge`](types_generatedGraphQLTypes.md#usersconnectionedge), ``"node"``\> & \{ `node`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"User"``]  \} |
 | `createChatInput` | [`CreateChatInput`](types_generatedGraphQLTypes.md#createchatinput) |
 | `createGroupChatInput` | [`CreateGroupChatInput`](types_generatedGraphQLTypes.md#creategroupchatinput) |
+| `createUserFamilyInput` | [`CreateUserFamilyInput`](types_generatedGraphQLTypes.md#createuserfamilyinput) |
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2194](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2194)
+[src/types/generatedGraphQLTypes.ts:2839](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2839)
 
 ___
 
@@ -6150,10 +7390,13 @@ Mapping between all available schema types and the resolvers types
 | :------ | :------ |
 | `ActionItem` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceActionItem`](../interfaces/models_ActionItem.InterfaceActionItem.md)\> |
 | `ActionItemCategory` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceActionItemCategory`](../interfaces/models_ActionItemCategory.InterfaceActionItemCategory.md)\> |
+| `ActionItemWhereInput` | [`ActionItemWhereInput`](types_generatedGraphQLTypes.md#actionitemwhereinput) |
+| `ActionItemsOrderByInput` | [`ActionItemsOrderByInput`](types_generatedGraphQLTypes.md#actionitemsorderbyinput) |
 | `Address` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Address`](types_generatedGraphQLTypes.md#address)\> |
 | `AddressInput` | [`AddressInput`](types_generatedGraphQLTypes.md#addressinput) |
 | `Advertisement` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`Advertisement`](types_generatedGraphQLTypes.md#advertisement), ``"creator"``\> & \{ `creator?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>  \}\> |
 | `AdvertisementType` | [`AdvertisementType`](types_generatedGraphQLTypes.md#advertisementtype) |
+| `AgendaCategory` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceAgendaCategory`](../interfaces/models_AgendaCategory.InterfaceAgendaCategory.md)\> |
 | `AggregatePost` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`AggregatePost`](types_generatedGraphQLTypes.md#aggregatepost)\> |
 | `AggregateUser` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`AggregateUser`](types_generatedGraphQLTypes.md#aggregateuser)\> |
 | `Any` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Any"``][``"output"``]\> |
@@ -6165,13 +7408,16 @@ Mapping between all available schema types and the resolvers types
 | `Comment` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceComment`](../interfaces/models_Comment.InterfaceComment.md)\> |
 | `CommentInput` | [`CommentInput`](types_generatedGraphQLTypes.md#commentinput) |
 | `ConnectionError` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`ResolversUnionTypes`](types_generatedGraphQLTypes.md#resolversuniontypes)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)\>[``"ConnectionError"``]\> |
-| `ConnectionPageInfo` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`ConnectionPageInfo`](types_generatedGraphQLTypes.md#connectionpageinfo)\> |
+| `ConnectionPageInfo` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`ResolversInterfaceTypes`](types_generatedGraphQLTypes.md#resolversinterfacetypes)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)\>[``"ConnectionPageInfo"``]\> |
 | `CountryCode` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"CountryCode"``][``"output"``]\> |
 | `CreateActionItemInput` | [`CreateActionItemInput`](types_generatedGraphQLTypes.md#createactioniteminput) |
+| `CreateAgendaCategoryInput` | [`CreateAgendaCategoryInput`](types_generatedGraphQLTypes.md#createagendacategoryinput) |
 | `CreateUserTagInput` | [`CreateUserTagInput`](types_generatedGraphQLTypes.md#createusertaginput) |
+| `Currency` | [`Currency`](types_generatedGraphQLTypes.md#currency) |
 | `CursorPaginationInput` | [`CursorPaginationInput`](types_generatedGraphQLTypes.md#cursorpaginationinput) |
 | `Date` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"output"``]\> |
 | `DateTime` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``]\> |
+| `DefaultConnectionPageInfo` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`DefaultConnectionPageInfo`](types_generatedGraphQLTypes.md#defaultconnectionpageinfo)\> |
 | `DeletePayload` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`DeletePayload`](types_generatedGraphQLTypes.md#deletepayload)\> |
 | `DirectChat` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceDirectChat`](../interfaces/models_DirectChat.InterfaceDirectChat.md)\> |
 | `DirectChatMessage` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceDirectChatMessage`](../interfaces/models_DirectChatMessage.InterfaceDirectChatMessage.md)\> |
@@ -6182,9 +7428,13 @@ Mapping between all available schema types and the resolvers types
 | `EmploymentStatus` | [`EmploymentStatus`](types_generatedGraphQLTypes.md#employmentstatus) |
 | `Error` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`ResolversInterfaceTypes`](types_generatedGraphQLTypes.md#resolversinterfacetypes)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)\>[``"Error"``]\> |
 | `Event` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceEvent`](../interfaces/models_Event.InterfaceEvent.md)\> |
+| `EventAttendee` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceEventAttendee`](../interfaces/models_EventAttendee.InterfaceEventAttendee.md)\> |
 | `EventAttendeeInput` | [`EventAttendeeInput`](types_generatedGraphQLTypes.md#eventattendeeinput) |
 | `EventInput` | [`EventInput`](types_generatedGraphQLTypes.md#eventinput) |
 | `EventOrderByInput` | [`EventOrderByInput`](types_generatedGraphQLTypes.md#eventorderbyinput) |
+| `EventVolunteer` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceEventVolunteer`](../interfaces/models_EventVolunteer.InterfaceEventVolunteer.md)\> |
+| `EventVolunteerInput` | [`EventVolunteerInput`](types_generatedGraphQLTypes.md#eventvolunteerinput) |
+| `EventVolunteerResponse` | [`EventVolunteerResponse`](types_generatedGraphQLTypes.md#eventvolunteerresponse) |
 | `EventWhereInput` | [`EventWhereInput`](types_generatedGraphQLTypes.md#eventwhereinput) |
 | `ExtendSession` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`ExtendSession`](types_generatedGraphQLTypes.md#extendsession)\> |
 | `Feedback` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceFeedback`](../interfaces/models_Feedback.InterfaceFeedback.md)\> |
@@ -6192,6 +7442,13 @@ Mapping between all available schema types and the resolvers types
 | `FieldError` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`ResolversInterfaceTypes`](types_generatedGraphQLTypes.md#resolversinterfacetypes)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)\>[``"FieldError"``]\> |
 | `Float` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Float"``][``"output"``]\> |
 | `ForgotPasswordData` | [`ForgotPasswordData`](types_generatedGraphQLTypes.md#forgotpassworddata) |
+| `Frequency` | [`Frequency`](types_generatedGraphQLTypes.md#frequency) |
+| `Fund` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceFund`](../interfaces/models_Fund.InterfaceFund.md)\> |
+| `FundCampaignInput` | [`FundCampaignInput`](types_generatedGraphQLTypes.md#fundcampaigninput) |
+| `FundCampaignPledgeInput` | [`FundCampaignPledgeInput`](types_generatedGraphQLTypes.md#fundcampaignpledgeinput) |
+| `FundInput` | [`FundInput`](types_generatedGraphQLTypes.md#fundinput) |
+| `FundraisingCampaign` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceFundraisingCampaign`](../interfaces/models_FundraisingCampaign.InterfaceFundraisingCampaign.md)\> |
+| `FundraisingCampaignPledge` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceFundraisingCampaignPledges`](../interfaces/models_FundraisingCampaignPledge.InterfaceFundraisingCampaignPledges.md)\> |
 | `Gender` | [`Gender`](types_generatedGraphQLTypes.md#gender) |
 | `Group` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceGroup`](../interfaces/models_Group.InterfaceGroup.md)\> |
 | `GroupChat` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceGroupChat`](../interfaces/models_GroupChat.InterfaceGroupChat.md)\> |
@@ -6241,6 +7498,9 @@ Mapping between all available schema types and the resolvers types
 | `Query` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<\{\}\> |
 | `RecaptchaVerification` | [`RecaptchaVerification`](types_generatedGraphQLTypes.md#recaptchaverification) |
 | `Recurrance` | [`Recurrance`](types_generatedGraphQLTypes.md#recurrance) |
+| `RecurrenceRuleInput` | [`RecurrenceRuleInput`](types_generatedGraphQLTypes.md#recurrenceruleinput) |
+| `RecurringEventUpdateType` | [`RecurringEventUpdateType`](types_generatedGraphQLTypes.md#recurringeventupdatetype) |
+| `SortedByOrder` | [`SortedByOrder`](types_generatedGraphQLTypes.md#sortedbyorder) |
 | `Status` | [`Status`](types_generatedGraphQLTypes.md#status) |
 | `String` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
 | `Subscription` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<\{\}\> |
@@ -6255,7 +7515,12 @@ Mapping between all available schema types and the resolvers types
 | `UpdateActionItemInput` | [`UpdateActionItemInput`](types_generatedGraphQLTypes.md#updateactioniteminput) |
 | `UpdateAdvertisementInput` | [`UpdateAdvertisementInput`](types_generatedGraphQLTypes.md#updateadvertisementinput) |
 | `UpdateAdvertisementPayload` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UpdateAdvertisementPayload`](types_generatedGraphQLTypes.md#updateadvertisementpayload), ``"advertisement"``\> & \{ `advertisement?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Advertisement"``]\>  \}\> |
+| `UpdateAgendaCategoryInput` | [`UpdateAgendaCategoryInput`](types_generatedGraphQLTypes.md#updateagendacategoryinput) |
 | `UpdateEventInput` | [`UpdateEventInput`](types_generatedGraphQLTypes.md#updateeventinput) |
+| `UpdateEventVolunteerInput` | [`UpdateEventVolunteerInput`](types_generatedGraphQLTypes.md#updateeventvolunteerinput) |
+| `UpdateFundCampaignInput` | [`UpdateFundCampaignInput`](types_generatedGraphQLTypes.md#updatefundcampaigninput) |
+| `UpdateFundCampaignPledgeInput` | [`UpdateFundCampaignPledgeInput`](types_generatedGraphQLTypes.md#updatefundcampaignpledgeinput) |
+| `UpdateFundInput` | [`UpdateFundInput`](types_generatedGraphQLTypes.md#updatefundinput) |
 | `UpdateOrganizationInput` | [`UpdateOrganizationInput`](types_generatedGraphQLTypes.md#updateorganizationinput) |
 | `UpdateUserInput` | [`UpdateUserInput`](types_generatedGraphQLTypes.md#updateuserinput) |
 | `UpdateUserPasswordInput` | [`UpdateUserPasswordInput`](types_generatedGraphQLTypes.md#updateuserpasswordinput) |
@@ -6266,27 +7531,26 @@ Mapping between all available schema types and the resolvers types
 | `UserAndOrganizationInput` | [`UserAndOrganizationInput`](types_generatedGraphQLTypes.md#userandorganizationinput) |
 | `UserConnection` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserConnection`](types_generatedGraphQLTypes.md#userconnection), ``"edges"``\> & \{ `edges`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]  \}\> |
 | `UserCustomData` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`UserCustomData`](types_generatedGraphQLTypes.md#usercustomdata)\> |
-| `UserEdge` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserEdge`](types_generatedGraphQLTypes.md#useredge), ``"node"``\> & \{ `node`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]  \}\> |
+| `UserFamily` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceUserFamily`](../interfaces/models_userFamily.InterfaceUserFamily.md)\> |
 | `UserInput` | [`UserInput`](types_generatedGraphQLTypes.md#userinput) |
 | `UserOrderByInput` | [`UserOrderByInput`](types_generatedGraphQLTypes.md#userorderbyinput) |
 | `UserPhone` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`UserPhone`](types_generatedGraphQLTypes.md#userphone)\> |
 | `UserPhoneInput` | [`UserPhoneInput`](types_generatedGraphQLTypes.md#userphoneinput) |
 | `UserTag` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceOrganizationTagUser`](../interfaces/models_OrganizationTagUser.InterfaceOrganizationTagUser.md)\> |
-| `UserTagEdge` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserTagEdge`](types_generatedGraphQLTypes.md#usertagedge), ``"node"``\> & \{ `node`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTag"``]  \}\> |
-| `UserTagsConnection` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserTagsConnection`](types_generatedGraphQLTypes.md#usertagsconnection), ``"edges"``\> & \{ `edges`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTagEdge"``][]  \}\> |
-| `UserTagsConnectionInput` | [`UserTagsConnectionInput`](types_generatedGraphQLTypes.md#usertagsconnectioninput) |
-| `UserTagsConnectionResult` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserTagsConnectionResult`](types_generatedGraphQLTypes.md#usertagsconnectionresult), ``"data"`` \| ``"errors"``\> & \{ `data?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTagsConnection"``]\> ; `errors`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ConnectionError"``][]  \}\> |
+| `UserTagsConnection` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserTagsConnection`](types_generatedGraphQLTypes.md#usertagsconnection), ``"edges"``\> & \{ `edges`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTagsConnectionEdge"``][]  \}\> |
+| `UserTagsConnectionEdge` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserTagsConnectionEdge`](types_generatedGraphQLTypes.md#usertagsconnectionedge), ``"node"``\> & \{ `node`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTag"``]  \}\> |
 | `UserType` | [`UserType`](types_generatedGraphQLTypes.md#usertype) |
 | `UserWhereInput` | [`UserWhereInput`](types_generatedGraphQLTypes.md#userwhereinput) |
-| `UsersConnection` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UsersConnection`](types_generatedGraphQLTypes.md#usersconnection), ``"edges"``\> & \{ `edges`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserEdge"``][]  \}\> |
-| `UsersConnectionInput` | [`UsersConnectionInput`](types_generatedGraphQLTypes.md#usersconnectioninput) |
-| `UsersConnectionResult` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UsersConnectionResult`](types_generatedGraphQLTypes.md#usersconnectionresult), ``"data"`` \| ``"errors"``\> & \{ `data?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UsersConnection"``]\> ; `errors`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ConnectionError"``][]  \}\> |
+| `UsersConnection` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UsersConnection`](types_generatedGraphQLTypes.md#usersconnection), ``"edges"``\> & \{ `edges`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UsersConnectionEdge"``][]  \}\> |
+| `UsersConnectionEdge` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UsersConnectionEdge`](types_generatedGraphQLTypes.md#usersconnectionedge), ``"node"``\> & \{ `node`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]  \}\> |
+| `WeekDays` | [`WeekDays`](types_generatedGraphQLTypes.md#weekdays) |
 | `createChatInput` | [`CreateChatInput`](types_generatedGraphQLTypes.md#createchatinput) |
 | `createGroupChatInput` | [`CreateGroupChatInput`](types_generatedGraphQLTypes.md#creategroupchatinput) |
+| `createUserFamilyInput` | [`CreateUserFamilyInput`](types_generatedGraphQLTypes.md#createuserfamilyinput) |
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2055](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2055)
+[src/types/generatedGraphQLTypes.ts:2676](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2676)
 
 ___
 
@@ -6310,7 +7574,7 @@ Mapping of union types
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2044](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2044)
+[src/types/generatedGraphQLTypes.ts:2664](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2664)
 
 ___
 
@@ -6326,7 +7590,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2322](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2322)
+[src/types/generatedGraphQLTypes.ts:2984](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2984)
 
 ___
 
@@ -6345,7 +7609,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2326](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2326)
+[src/types/generatedGraphQLTypes.ts:2988](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2988)
 
 ___
 
@@ -6416,7 +7680,20 @@ All built-in and custom scalars, mapped to their actual values
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:35](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L35)
+[src/types/generatedGraphQLTypes.ts:41](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L41)
+
+___
+
+### SortedByOrder
+
+Ƭ **SortedByOrder**: ``"ASCENDING"`` \| ``"DESCENDING"``
+
+Possible variants of ordering in which sorting on a field should be
+applied for a connection or other list type data structures.
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2195](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2195)
 
 ___
 
@@ -6426,7 +7703,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1643](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1643)
+[src/types/generatedGraphQLTypes.ts:2207](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2207)
 
 ___
 
@@ -6446,7 +7723,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1648](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1648)
+[src/types/generatedGraphQLTypes.ts:2212](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2212)
 
 ___
 
@@ -6466,7 +7743,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2017](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2017)
+[src/types/generatedGraphQLTypes.ts:2637](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2637)
 
 ___
 
@@ -6502,7 +7779,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2000](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2000)
+[src/types/generatedGraphQLTypes.ts:2620](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2620)
 
 ___
 
@@ -6522,7 +7799,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2021](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2021)
+[src/types/generatedGraphQLTypes.ts:2641](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2641)
 
 ___
 
@@ -6548,7 +7825,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2926](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2926)
+[src/types/generatedGraphQLTypes.ts:3704](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3704)
 
 ___
 
@@ -6584,7 +7861,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1993](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1993)
+[src/types/generatedGraphQLTypes.ts:2613](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2613)
 
 ___
 
@@ -6601,7 +7878,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1656](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1656)
+[src/types/generatedGraphQLTypes.ts:2220](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2220)
 
 ___
 
@@ -6621,7 +7898,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1661](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1661)
+[src/types/generatedGraphQLTypes.ts:2225](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2225)
 
 ___
 
@@ -6648,7 +7925,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2937](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2937)
+[src/types/generatedGraphQLTypes.ts:3715](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3715)
 
 ___
 
@@ -6658,7 +7935,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1669](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1669)
+[src/types/generatedGraphQLTypes.ts:2233](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2233)
 
 ___
 
@@ -6692,7 +7969,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2025](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2025)
+[src/types/generatedGraphQLTypes.ts:2645](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2645)
 
 ___
 
@@ -6702,7 +7979,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1673](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1673)
+[src/types/generatedGraphQLTypes.ts:2237](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2237)
 
 ___
 
@@ -6726,7 +8003,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2949](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2949)
+[src/types/generatedGraphQLTypes.ts:3727](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3727)
 
 ___
 
@@ -6736,7 +8013,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1678](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1678)
+[src/types/generatedGraphQLTypes.ts:2242](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2242)
 
 ___
 
@@ -6760,7 +8037,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2954](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2954)
+[src/types/generatedGraphQLTypes.ts:3732](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3732)
 
 ___
 
@@ -6777,7 +8054,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1683](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1683)
+[src/types/generatedGraphQLTypes.ts:2247](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2247)
 
 ___
 
@@ -6798,7 +8075,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1688](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1688)
+[src/types/generatedGraphQLTypes.ts:2252](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2252)
 
 ___
 
@@ -6819,7 +8096,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1697](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1697)
+[src/types/generatedGraphQLTypes.ts:2261](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2261)
 
 ___
 
@@ -6836,7 +8113,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1706](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1706)
+[src/types/generatedGraphQLTypes.ts:2270](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2270)
 
 ___
 
@@ -6860,7 +8137,24 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2959](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2959)
+[src/types/generatedGraphQLTypes.ts:3737](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3737)
+
+___
+
+### UpdateAgendaCategoryInput
+
+Ƭ **UpdateAgendaCategoryInput**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `description?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `name?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2275](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2275)
 
 ___
 
@@ -6877,6 +8171,7 @@ ___
 | `endDate?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"input"``]\> |
 | `endTime?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``][``"input"``]\> |
 | `isPublic?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"input"``]\> |
+| `isRecurringEventException?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"input"``]\> |
 | `isRegisterable?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"input"``]\> |
 | `latitude?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Latitude"``][``"input"``]\> |
 | `location?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
@@ -6889,7 +8184,84 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1711](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1711)
+[src/types/generatedGraphQLTypes.ts:2280](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2280)
+
+___
+
+### UpdateEventVolunteerInput
+
+Ƭ **UpdateEventVolunteerInput**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `eventId?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
+| `isAssigned?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"input"``]\> |
+| `isInvited?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"input"``]\> |
+| `response?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`EventVolunteerResponse`](types_generatedGraphQLTypes.md#eventvolunteerresponse)\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2298](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2298)
+
+___
+
+### UpdateFundCampaignInput
+
+Ƭ **UpdateFundCampaignInput**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `currency?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Currency`](types_generatedGraphQLTypes.md#currency)\> |
+| `endDate?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"input"``]\> |
+| `fundingGoal?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Float"``][``"input"``]\> |
+| `name?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `startDate?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"input"``]\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2305](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2305)
+
+___
+
+### UpdateFundCampaignPledgeInput
+
+Ƭ **UpdateFundCampaignPledgeInput**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `amount?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Float"``][``"input"``]\> |
+| `currency?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Currency`](types_generatedGraphQLTypes.md#currency)\> |
+| `endDate?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"input"``]\> |
+| `startDate?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"input"``]\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2313](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2313)
+
+___
+
+### UpdateFundInput
+
+Ƭ **UpdateFundInput**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `isArchived?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"input"``]\> |
+| `isDefault?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"input"``]\> |
+| `name?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `taxDeductible?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"input"``]\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2320](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2320)
 
 ___
 
@@ -6909,7 +8281,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1728](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1728)
+[src/types/generatedGraphQLTypes.ts:2327](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2327)
 
 ___
 
@@ -6934,7 +8306,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1736](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1736)
+[src/types/generatedGraphQLTypes.ts:2335](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2335)
 
 ___
 
@@ -6952,7 +8324,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1749](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1749)
+[src/types/generatedGraphQLTypes.ts:2348](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2348)
 
 ___
 
@@ -6969,7 +8341,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1755](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1755)
+[src/types/generatedGraphQLTypes.ts:2354](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2354)
 
 ___
 
@@ -6986,7 +8358,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1760](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1760)
+[src/types/generatedGraphQLTypes.ts:2359](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2359)
 
 ___
 
@@ -7030,7 +8402,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1765](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1765)
+[src/types/generatedGraphQLTypes.ts:2364](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2364)
 
 ___
 
@@ -7047,7 +8419,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1806](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1806)
+[src/types/generatedGraphQLTypes.ts:2405](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2405)
 
 ___
 
@@ -7066,7 +8438,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1811](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1811)
+[src/types/generatedGraphQLTypes.ts:2410](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2410)
 
 ___
 
@@ -7092,7 +8464,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:3000](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L3000)
+[src/types/generatedGraphQLTypes.ts:3778](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3778)
 
 ___
 
@@ -7112,7 +8484,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1818](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1818)
+[src/types/generatedGraphQLTypes.ts:2417](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2417)
 
 ___
 
@@ -7139,50 +8511,56 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:3007](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L3007)
+[src/types/generatedGraphQLTypes.ts:3785](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3785)
 
 ___
 
-### UserEdge
+### UserFamily
 
-Ƭ **UserEdge**: `Object`
+Ƭ **UserFamily**: `Object`
 
 #### Type declaration
 
 | Name | Type |
 | :------ | :------ |
-| `__typename?` | ``"UserEdge"`` |
-| `cursor` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
-| `node` | [`User`](types_generatedGraphQLTypes.md#user) |
+| `__typename?` | ``"UserFamily"`` |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `admins` | [`User`](types_generatedGraphQLTypes.md#user)[] |
+| `creator` | [`User`](types_generatedGraphQLTypes.md#user) |
+| `title?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
+| `users` | [`User`](types_generatedGraphQLTypes.md#user)[] |
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1826](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1826)
+[src/types/generatedGraphQLTypes.ts:2425](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2425)
 
 ___
 
-### UserEdgeResolvers
+### UserFamilyResolvers
 
-Ƭ **UserEdgeResolvers**\<`ContextType`, `ParentType`\>: `Object`
+Ƭ **UserFamilyResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
 | `ContextType` | `any` |
-| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserEdge"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserEdge"``] |
+| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserFamily"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserFamily"``] |
 
 #### Type declaration
 
 | Name | Type |
 | :------ | :------ |
 | `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
-| `cursor?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `node?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `admins?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``][], `ParentType`, `ContextType`\> |
+| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `title?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `users?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``][], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:3015](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L3015)
+[src/types/generatedGraphQLTypes.ts:3793](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3793)
 
 ___
 
@@ -7203,7 +8581,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1832](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1832)
+[src/types/generatedGraphQLTypes.ts:2434](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2434)
 
 ___
 
@@ -7213,7 +8591,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1841](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1841)
+[src/types/generatedGraphQLTypes.ts:2443](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2443)
 
 ___
 
@@ -7232,7 +8610,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1853](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1853)
+[src/types/generatedGraphQLTypes.ts:2455](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2455)
 
 ___
 
@@ -7250,7 +8628,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1860](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1860)
+[src/types/generatedGraphQLTypes.ts:2462](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2462)
 
 ___
 
@@ -7276,7 +8654,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:3021](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L3021)
+[src/types/generatedGraphQLTypes.ts:3802](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3802)
 
 ___
 
@@ -7327,7 +8705,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:2968](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L2968)
+[src/types/generatedGraphQLTypes.ts:3746](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3746)
 
 ___
 
@@ -7337,19 +8715,19 @@ ___
 
 #### Type declaration
 
-| Name | Type |
-| :------ | :------ |
-| `__typename?` | ``"UserTag"`` |
-| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
-| `childTags` | [`UserTagsConnectionResult`](types_generatedGraphQLTypes.md#usertagsconnectionresult) |
-| `name` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
-| `organization?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Organization`](types_generatedGraphQLTypes.md#organization)\> |
-| `parentTag?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UserTag`](types_generatedGraphQLTypes.md#usertag)\> |
-| `usersAssignedTo` | [`UsersConnectionResult`](types_generatedGraphQLTypes.md#usersconnectionresult) |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `__typename?` | ``"UserTag"`` | - |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] | A field to get the mongodb object id identifier for this UserTag. |
+| `childTags?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UserTagsConnection`](types_generatedGraphQLTypes.md#usertagsconnection)\> | A connection field to traverse a list of UserTag this UserTag is a parent to. |
+| `name` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] | A field to get the name of this UserTag. |
+| `organization?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Organization`](types_generatedGraphQLTypes.md#organization)\> | A field to traverse the Organization that created this UserTag. |
+| `parentTag?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UserTag`](types_generatedGraphQLTypes.md#usertag)\> | A field to traverse the parent UserTag of this UserTag. |
+| `usersAssignedTo?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UsersConnection`](types_generatedGraphQLTypes.md#usersconnection)\> | A connection field to traverse a list of User this UserTag is assigned to. |
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1866](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1866)
+[src/types/generatedGraphQLTypes.ts:2468](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2468)
 
 ___
 
@@ -7361,54 +8739,14 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `input` | [`UserTagsConnectionInput`](types_generatedGraphQLTypes.md#usertagsconnectioninput) |
+| `after?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `before?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``][``"input"``]\> |
+| `last?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``][``"input"``]\> |
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1877](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1877)
-
-___
-
-### UserTagEdge
-
-Ƭ **UserTagEdge**: `Object`
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `__typename?` | ``"UserTagEdge"`` |
-| `cursor` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
-| `node` | [`UserTag`](types_generatedGraphQLTypes.md#usertag) |
-
-#### Defined in
-
-[src/types/generatedGraphQLTypes.ts:1886](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1886)
-
-___
-
-### UserTagEdgeResolvers
-
-Ƭ **UserTagEdgeResolvers**\<`ContextType`, `ParentType`\>: `Object`
-
-#### Type parameters
-
-| Name | Type |
-| :------ | :------ |
-| `ContextType` | `any` |
-| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserTagEdge"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserTagEdge"``] |
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
-| `cursor?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `node?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTag"``], `ParentType`, `ContextType`\> |
-
-#### Defined in
-
-[src/types/generatedGraphQLTypes.ts:3038](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L3038)
+[src/types/generatedGraphQLTypes.ts:2491](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2491)
 
 ___
 
@@ -7429,15 +8767,15 @@ ___
 | :------ | :------ |
 | `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
 | `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
-| `childTags?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTagsConnectionResult"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`UserTagChildTagsArgs`](types_generatedGraphQLTypes.md#usertagchildtagsargs), ``"input"``\>\> |
+| `childTags?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTagsConnection"``]\>, `ParentType`, `ContextType`, `Partial`\<[`UserTagChildTagsArgs`](types_generatedGraphQLTypes.md#usertagchildtagsargs)\>\> |
 | `name?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
 | `organization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``]\>, `ParentType`, `ContextType`\> |
 | `parentTag?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTag"``]\>, `ParentType`, `ContextType`\> |
-| `usersAssignedTo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UsersConnectionResult"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`UserTagUsersAssignedToArgs`](types_generatedGraphQLTypes.md#usertagusersassignedtoargs), ``"input"``\>\> |
+| `usersAssignedTo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UsersConnection"``]\>, `ParentType`, `ContextType`, `Partial`\<[`UserTagUsersAssignedToArgs`](types_generatedGraphQLTypes.md#usertagusersassignedtoargs)\>\> |
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:3028](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L3028)
+[src/types/generatedGraphQLTypes.ts:3809](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3809)
 
 ___
 
@@ -7449,11 +8787,14 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `input` | [`UsersConnectionInput`](types_generatedGraphQLTypes.md#usersconnectioninput) |
+| `after?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `before?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``][``"input"``]\> |
+| `last?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``][``"input"``]\> |
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1882](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1882)
+[src/types/generatedGraphQLTypes.ts:2499](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2499)
 
 ___
 
@@ -7473,7 +8814,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1798](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1798)
+[src/types/generatedGraphQLTypes.ts:2397](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2397)
 
 ___
 
@@ -7481,35 +8822,64 @@ ___
 
 Ƭ **UserTagsConnection**: `Object`
 
+A default connection on the UserTag type.
+
 #### Type declaration
 
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"UserTagsConnection"`` |
-| `edges` | [`UserTagEdge`](types_generatedGraphQLTypes.md#usertagedge)[] |
-| `pageInfo` | [`ConnectionPageInfo`](types_generatedGraphQLTypes.md#connectionpageinfo) |
+| `edges` | [`UserTagsConnectionEdge`](types_generatedGraphQLTypes.md#usertagsconnectionedge)[] |
+| `pageInfo` | [`DefaultConnectionPageInfo`](types_generatedGraphQLTypes.md#defaultconnectionpageinfo) |
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1892](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1892)
+[src/types/generatedGraphQLTypes.ts:2507](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2507)
 
 ___
 
-### UserTagsConnectionInput
+### UserTagsConnectionEdge
 
-Ƭ **UserTagsConnectionInput**: `Object`
+Ƭ **UserTagsConnectionEdge**: `Object`
+
+A default connection edge on the UserTag type for UserTagsConnection.
 
 #### Type declaration
 
 | Name | Type |
 | :------ | :------ |
-| `cursor?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
-| `direction` | [`PaginationDirection`](types_generatedGraphQLTypes.md#paginationdirection) |
-| `limit` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``][``"input"``] |
+| `__typename?` | ``"UserTagsConnectionEdge"`` |
+| `cursor` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `node` | [`UserTag`](types_generatedGraphQLTypes.md#usertag) |
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1898](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1898)
+[src/types/generatedGraphQLTypes.ts:2514](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2514)
+
+___
+
+### UserTagsConnectionEdgeResolvers
+
+Ƭ **UserTagsConnectionEdgeResolvers**\<`ContextType`, `ParentType`\>: `Object`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ContextType` | `any` |
+| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserTagsConnectionEdge"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserTagsConnectionEdge"``] |
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `cursor?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `node?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTag"``], `ParentType`, `ContextType`\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:3825](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3825)
 
 ___
 
@@ -7529,55 +8899,12 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
-| `edges?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTagEdge"``][], `ParentType`, `ContextType`\> |
-| `pageInfo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ConnectionPageInfo"``], `ParentType`, `ContextType`\> |
+| `edges?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTagsConnectionEdge"``][], `ParentType`, `ContextType`\> |
+| `pageInfo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DefaultConnectionPageInfo"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:3044](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L3044)
-
-___
-
-### UserTagsConnectionResult
-
-Ƭ **UserTagsConnectionResult**: `Object`
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `__typename?` | ``"UserTagsConnectionResult"`` |
-| `data?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UserTagsConnection`](types_generatedGraphQLTypes.md#usertagsconnection)\> |
-| `errors` | [`ConnectionError`](types_generatedGraphQLTypes.md#connectionerror)[] |
-
-#### Defined in
-
-[src/types/generatedGraphQLTypes.ts:1904](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1904)
-
-___
-
-### UserTagsConnectionResultResolvers
-
-Ƭ **UserTagsConnectionResultResolvers**\<`ContextType`, `ParentType`\>: `Object`
-
-#### Type parameters
-
-| Name | Type |
-| :------ | :------ |
-| `ContextType` | `any` |
-| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserTagsConnectionResult"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserTagsConnectionResult"``] |
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
-| `data?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTagsConnection"``]\>, `ParentType`, `ContextType`\> |
-| `errors?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ConnectionError"``][], `ParentType`, `ContextType`\> |
-
-#### Defined in
-
-[src/types/generatedGraphQLTypes.ts:3050](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L3050)
+[src/types/generatedGraphQLTypes.ts:3819](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3819)
 
 ___
 
@@ -7587,7 +8914,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1910](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1910)
+[src/types/generatedGraphQLTypes.ts:2520](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2520)
 
 ___
 
@@ -7634,7 +8961,7 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1916](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1916)
+[src/types/generatedGraphQLTypes.ts:2526](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2526)
 
 ___
 
@@ -7642,35 +8969,64 @@ ___
 
 Ƭ **UsersConnection**: `Object`
 
+A default connection on the User type.
+
 #### Type declaration
 
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"UsersConnection"`` |
-| `edges` | [`UserEdge`](types_generatedGraphQLTypes.md#useredge)[] |
-| `pageInfo` | [`ConnectionPageInfo`](types_generatedGraphQLTypes.md#connectionpageinfo) |
+| `edges` | [`UsersConnectionEdge`](types_generatedGraphQLTypes.md#usersconnectionedge)[] |
+| `pageInfo` | [`DefaultConnectionPageInfo`](types_generatedGraphQLTypes.md#defaultconnectionpageinfo) |
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1951](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1951)
+[src/types/generatedGraphQLTypes.ts:2562](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2562)
 
 ___
 
-### UsersConnectionInput
+### UsersConnectionEdge
 
-Ƭ **UsersConnectionInput**: `Object`
+Ƭ **UsersConnectionEdge**: `Object`
+
+A default connection edge on the User type for UsersConnection.
 
 #### Type declaration
 
 | Name | Type |
 | :------ | :------ |
-| `cursor?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
-| `direction` | [`PaginationDirection`](types_generatedGraphQLTypes.md#paginationdirection) |
-| `limit` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``][``"input"``] |
+| `__typename?` | ``"UsersConnectionEdge"`` |
+| `cursor` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `node` | [`User`](types_generatedGraphQLTypes.md#user) |
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1957](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1957)
+[src/types/generatedGraphQLTypes.ts:2569](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2569)
+
+___
+
+### UsersConnectionEdgeResolvers
+
+Ƭ **UsersConnectionEdgeResolvers**\<`ContextType`, `ParentType`\>: `Object`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ContextType` | `any` |
+| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UsersConnectionEdge"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UsersConnectionEdge"``] |
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `cursor?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `node?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:3837](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3837)
 
 ___
 
@@ -7690,52 +9046,19 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
-| `edges?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserEdge"``][], `ParentType`, `ContextType`\> |
-| `pageInfo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ConnectionPageInfo"``], `ParentType`, `ContextType`\> |
+| `edges?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UsersConnectionEdge"``][], `ParentType`, `ContextType`\> |
+| `pageInfo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DefaultConnectionPageInfo"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:3056](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L3056)
+[src/types/generatedGraphQLTypes.ts:3831](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L3831)
 
 ___
 
-### UsersConnectionResult
+### WeekDays
 
-Ƭ **UsersConnectionResult**: `Object`
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `__typename?` | ``"UsersConnectionResult"`` |
-| `data?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UsersConnection`](types_generatedGraphQLTypes.md#usersconnection)\> |
-| `errors` | [`ConnectionError`](types_generatedGraphQLTypes.md#connectionerror)[] |
+Ƭ **WeekDays**: ``"FR"`` \| ``"MO"`` \| ``"SA"`` \| ``"SU"`` \| ``"TH"`` \| ``"TU"`` \| ``"WE"``
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:1963](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L1963)
-
-___
-
-### UsersConnectionResultResolvers
-
-Ƭ **UsersConnectionResultResolvers**\<`ContextType`, `ParentType`\>: `Object`
-
-#### Type parameters
-
-| Name | Type |
-| :------ | :------ |
-| `ContextType` | `any` |
-| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UsersConnectionResult"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UsersConnectionResult"``] |
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
-| `data?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UsersConnection"``]\>, `ParentType`, `ContextType`\> |
-| `errors?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ConnectionError"``][], `ParentType`, `ContextType`\> |
-
-#### Defined in
-
-[src/types/generatedGraphQLTypes.ts:3062](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/types/generatedGraphQLTypes.ts#L3062)
+[src/types/generatedGraphQLTypes.ts:2575](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/types/generatedGraphQLTypes.ts#L2575)

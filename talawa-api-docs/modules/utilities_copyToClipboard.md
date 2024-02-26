@@ -14,7 +14,7 @@
 
 ▸ **copyToClipboard**(`text`): `void`
 
-This utility function copy the text into the clipboard.
+This utility function copy the text into the clipboard (test change).
 
 #### Parameters
 
@@ -32,4 +32,4 @@ This is a utility method. This works only in development or test mode.
 
 #### Defined in
 
-[src/utilities/copyToClipboard.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/utilities/copyToClipboard.ts#L9)
+[src/utilities/copyToClipboard.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/62d6dc4/src/utilities/copyToClipboard.ts#L9)
